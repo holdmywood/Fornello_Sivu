@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fornello Oy Website
 
-## Getting Started
+Next.js 16 + next-intl v4 + Tailwind v4 + shadcn/ui
 
-First, run the development server:
+## Setup
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000 → redirects to /fi
+npm run build      # production build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Editing translations
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+All copy lives in `messages/`. Four files, identical key structure:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| File | Language |
+|---|---|
+| `messages/fi.json` | Finnish (default) |
+| `messages/sv.json` | Swedish |
+| `messages/en.json` | English |
+| `messages/de.json` | German |
 
-## Learn More
+Key structure overview:
+```
+meta.home / meta.services / meta.contact   → page <title> and <description>
+nav.*                                       → header/footer nav labels
+home.hero / home.intro / home.supply / …   → homepage sections
+services.*                                 → services page
+contact.*                                  → contact page and form
+footer.*                                   → footer labels
+common.*                                   → shared UI strings
+```
 
-To learn more about Next.js, take a look at the following resources:
+Technical terms (FSC®, PEFC, REDIII, EUDR) are kept unchanged across all locales.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Swapping images
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Place images in `public/images/`:
 
-## Deploy on Vercel
+| Path | Used in |
+|---|---|
+| `public/images/hero.jpg` | Home page hero background |
+| `public/images/forest-1.jpg` | Reserved for future use |
+| `public/images/logo.svg` | Replace text logo in Header |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Recommended: 1920×1080px or wider for `hero.jpg`. Use WebP for best performance.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Wiring up contact form email
+
+The form posts to `app/api/contact/route.ts`. Currently stubbed — add your email provider:
+
+```ts
+// app/api/contact/route.ts
+import { Resend } from 'resend'   // npm install resend
+
+const resend = new Resend(process.env.RESEND_API_KEY)
+
+export async function POST(req: Request) {
+  const { name, email, company, message } = await req.json()
+  await resend.emails.send({
+    from: 'website@fornello.fi',
+    to: 'info@fornello.fi',
+    subject: `Contact form: ${name}`,
+    text: `From: ${name} <${email}>\nCompany: ${company ?? '—'}\n\n${message}`,
+  })
+  return NextResponse.json({ ok: true })
+}
+```
+
+Add `RESEND_API_KEY` to `.env.local`.
+
+## Palette
+
+All color tokens are defined in `app/globals.css` under `@theme`. Edit there to update the entire site:
+
+```css
+--color-forest-600: #2D5A38;   /* primary brand green */
+--color-forest-700: #1E3D26;   /* darker green, footer */
+--color-amber-500:  #C17F3A;   /* CTA accent */
+--color-cream-50:   #F7F3ED;   /* page background */
+--color-bark-900:   #2C2418;   /* body text */
+```
+
+## Deploying to Vercel
+
+```bash
+npx vercel
+```
+
+Set `RESEND_API_KEY` (or equivalent) in Vercel environment variables.
+Set `BASE_URL` in `lib/metadata.ts` and `app/sitemap.ts` if deploying to a custom domain.
