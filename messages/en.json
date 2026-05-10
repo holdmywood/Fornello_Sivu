@@ -1,1 +1,168 @@
-{ "meta": { "home": { "title": "Fornello Oy", "description": "Quality roundwood from the Baltic Sea region." } } }
+{
+  "meta": {
+    "home": {
+      "title": "Fornello Oy — Quality Roundwood from the Baltic Sea Region",
+      "description": "Finnish timber trade specialist supplying FSC® and PEFC certified sawlogs, pulpwood, and biomass across the Baltic Sea region."
+    },
+    "services": {
+      "title": "Our Services — Fornello Oy",
+      "description": "Roundwood trading and agency, wood purchasing software, and consulting services from Fornello Oy."
+    },
+    "contact": {
+      "title": "Contact — Fornello Oy",
+      "description": "Get in touch with Fornello Oy. Latoluomantie 30, 29100 Luvia, Finland. +358 500 110 220."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "contact": "Contact",
+    "logo_alt": "Fornello Oy"
+  },
+  "home": {
+    "hero": {
+      "headline": "Reliable Timber. Responsibly Sourced.",
+      "subheadline": "Fornello supplies quality roundwood from the Baltic Sea region — sawlogs, pulpwood, and energy wood for industrial and energy production.",
+      "cta_primary": "Get in touch",
+      "cta_secondary": "Our services"
+    },
+    "intro": {
+      "body": "Fornello Oy is a Finnish timber trade specialist operating across the Baltic Sea region. We connect industrial buyers with abundant, FSC®- and PEFC-certified forest resources — backed by a reliable logistics network and decades of local expertise."
+    },
+    "supply": {
+      "heading": "What we supply",
+      "sawlogs": {
+        "label": "Sawlogs",
+        "desc": "High-grade logs for sawmill and structural timber production."
+      },
+      "pulpwood": {
+        "label": "Pulpwood",
+        "desc": "Consistent-quality fibre for pulp and paper manufacturing."
+      },
+      "energy_chips": {
+        "label": "Energy chips",
+        "desc": "Processed wood chips for biomass energy plants."
+      },
+      "energy_wood": {
+        "label": "Energy wood",
+        "desc": "Whole-tree biomass for heat and power generation."
+      }
+    },
+    "why": {
+      "heading": "Why Fornello",
+      "supply": {
+        "title": "Abundant supply",
+        "body": "An extensive Baltic Sea cooperation network gives you access to large, consistent volumes — even during tight market conditions."
+      },
+      "sustainability": {
+        "title": "Responsible sourcing",
+        "body": "Every shipment meets FSC®, PEFC, REDIII, and EUDR requirements. Sustainable forest management is how we operate, not a checkbox."
+      },
+      "quality": {
+        "title": "Quality assurance",
+        "body": "Rigorous grading and measurement at source. You receive what was agreed, every time."
+      },
+      "logistics": {
+        "title": "Reliable logistics",
+        "body": "Local partnerships and efficient transport networks keep your supply chain running on schedule."
+      }
+    },
+    "services_overview": {
+      "heading": "What we do",
+      "roundwood": {
+        "title": "Roundwood trading & agency",
+        "body": "Sourcing, brokering, and logistics for sawlogs, pulpwood, and biomass across the Baltic Sea region.",
+        "cta": "Learn more"
+      },
+      "software": {
+        "title": "Wood purchasing software",
+        "body": "Purpose-built tools that streamline timber procurement, measurement, and reporting.",
+        "cta": "Learn more"
+      },
+      "consulting": {
+        "title": "Consulting",
+        "body": "Expert guidance on procurement strategy, compliance, and market positioning.",
+        "cta": "Learn more"
+      }
+    },
+    "certifications": {
+      "heading": "Compliance & certification",
+      "note": "All sourcing meets FSC®, PEFC, REDIII, and EUDR requirements."
+    },
+    "cta": {
+      "heading": "Looking for a reliable timber partner?",
+      "body": "We supply quality roundwood on time, every time — from a network you can trust.",
+      "button": "Contact us"
+    }
+  },
+  "services": {
+    "heading": "Our services",
+    "subheading": "Three areas of expertise, one trusted partner.",
+    "roundwood": {
+      "title": "Roundwood trading & agency",
+      "body": "We source and broker sawlogs, pulpwood, energy chips, and energy wood across the Baltic Sea region. Our local partner network ensures consistent supply volumes and competitive pricing.",
+      "features": [
+        "Sawlogs for sawmill production",
+        "Pulpwood for pulp and paper",
+        "Energy chips and whole-tree biomass",
+        "Baltic Sea–wide sourcing network",
+        "FSC® and PEFC certified supply"
+      ]
+    },
+    "software": {
+      "title": "Wood purchasing software",
+      "body": "Our software is built for the specific demands of timber procurement. Digitise measurement, automate reporting, and gain full visibility over your purchasing operations.",
+      "features": [
+        "Timber measurement and grading tools",
+        "Procurement workflow automation",
+        "Compliance and reporting dashboards",
+        "Tailored to Nordic forestry standards"
+      ]
+    },
+    "consulting": {
+      "title": "Consulting",
+      "body": "Whether you are entering new markets, tightening compliance processes, or optimising your supply chain, our consultants bring deep industry knowledge to your challenges.",
+      "features": [
+        "Procurement strategy",
+        "REDIII and EUDR compliance advisory",
+        "Market analysis and supplier evaluation",
+        "Supply chain optimisation"
+      ]
+    }
+  },
+  "contact": {
+    "heading": "Get in touch",
+    "subheading": "We respond within one business day.",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "company": "Company",
+      "message": "Message",
+      "name_placeholder": "Your name",
+      "email_placeholder": "you@company.com",
+      "company_placeholder": "Your company",
+      "message_placeholder": "How can we help?",
+      "submit": "Send message",
+      "success": "Thank you — we'll be in touch shortly.",
+      "error": "Something went wrong. Please try again or email us directly at info@fornello.fi."
+    },
+    "info": {
+      "address_label": "Address",
+      "phone_label": "Phone",
+      "email_label": "Email"
+    }
+  },
+  "footer": {
+    "tagline": "Quality roundwood from the Baltic Sea region.",
+    "nav_label": "Contact",
+    "lang_label": "Language",
+    "copyright": "© {year} Fornello Oy. All rights reserved."
+  },
+  "common": {
+    "learn_more": "Learn more",
+    "contact_us": "Contact us",
+    "back_to_top": "Back to top",
+    "loading": "Sending…",
+    "required_field": "This field is required."
+  }
+}

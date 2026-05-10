@@ -1,1 +1,116 @@
-{ "meta": { "home": { "title": "Fornello Oy", "description": "Quality roundwood from the Baltic Sea region." } } }
+{
+  "meta": {
+    "home": {
+      "title": "Fornello Oy — Qualitätsrundholz aus der Ostseeregion",
+      "description": "Finnischer Spezialist für Holzhandel. FSC®- und PEFC-zertifizierte Sägestämme, Industrieholz und Biomasse."
+    },
+    "services": {
+      "title": "Leistungen — Fornello Oy",
+      "description": "Rundholzhandel und Agentur, Software für den Holzeinkauf sowie Beratungsleistungen."
+    },
+    "contact": {
+      "title": "Kontakt — Fornello Oy",
+      "description": "Kontaktieren Sie Fornello Oy. Latoluomantie 30, 29100 Luvia, Finnland. +358 500 110 220."
+    }
+  },
+  "nav": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "contact": "Kontakt",
+    "logo_alt": "Fornello Oy"
+  },
+  "home": {
+    "hero": {
+      "headline": "Zuverlässiges Holz. Verantwortungsvoll beschafft.",
+      "subheadline": "Fornello liefert hochwertiges Rundholz aus der Ostseeregion — Sägestämme, Industrieholz und Energieholz für Industrie und Energieerzeugung.",
+      "cta_primary": "Kontakt aufnehmen",
+      "cta_secondary": "Unsere Leistungen"
+    },
+    "intro": {
+      "body": "Fornello Oy ist ein finnisches Spezialunternehmen für den Holzhandel, das in der gesamten Ostseeregion tätig ist. Wir verbinden Industriekunden mit umfangreichen, FSC®- und PEFC-zertifizierten Waldressourcen — gestützt auf ein zuverlässiges Logistiknetzwerk und jahrzehntelange lokale Expertise."
+    },
+    "supply": {
+      "heading": "Unser Lieferprogramm",
+      "sawlogs": { "label": "Sägestämme", "desc": "Hochwertige Stämme für die Säge- und Konstruktionsholzproduktion." },
+      "pulpwood": { "label": "Industrieholz", "desc": "Gleichmäßig hochwertige Faser für die Zellstoff- und Papierindustrie." },
+      "energy_chips": { "label": "Energiehackschnitzel", "desc": "Aufbereitete Holzhackschnitzel für Biomasse- und Heizkraftwerke." },
+      "energy_wood": { "label": "Energieholz", "desc": "Vollbaumbiomasse für Wärme- und Stromerzeugung." }
+    },
+    "why": {
+      "heading": "Warum Fornello",
+      "supply": {
+        "title": "Umfangreiches Angebot",
+        "body": "Ein weitreichendes Kooperationsnetzwerk in der Ostseeregion sichert Ihnen Zugang zu großen, gleichmäßigen Mengen — auch in angespannten Marktsituationen."
+      },
+      "sustainability": {
+        "title": "Verantwortungsvolle Beschaffung",
+        "body": "Jede Lieferung erfüllt die Anforderungen von FSC®, PEFC, REDIII und EUDR. Nachhaltige Forstwirtschaft ist unsere Arbeitsweise, kein bürokratisches Pflichtprogramm."
+      },
+      "quality": {
+        "title": "Qualitätssicherung",
+        "body": "Sorgfältige Sortierung und Vermessung an der Quelle. Die vereinbarte Ware wird wie vereinbart geliefert — jedes Mal."
+      },
+      "logistics": {
+        "title": "Zuverlässige Logistik",
+        "body": "Lokale Partnerschaften und effiziente Transportnetzwerke halten Ihre Lieferkette im Zeitplan."
+      }
+    },
+    "services_overview": {
+      "heading": "Unser Leistungsspektrum",
+      "roundwood": { "title": "Rundholzhandel und Agentur", "body": "Beschaffung, Vermittlung und Logistik für Sägestämme, Industrieholz und Biomasse in der Ostseeregion.", "cta": "Mehr erfahren" },
+      "software": { "title": "Software für den Holzeinkauf", "body": "Zweckgerichtete Werkzeuge zur Optimierung von Holzbeschaffung, Vermessung und Reporting.", "cta": "Mehr erfahren" },
+      "consulting": { "title": "Beratung", "body": "Fachkundige Unterstützung bei Beschaffungsstrategie, Compliance und Marktpositionierung.", "cta": "Mehr erfahren" }
+    },
+    "certifications": {
+      "heading": "Compliance und Zertifizierungen",
+      "note": "Alle Beschaffungsvorgänge erfüllen die Anforderungen von FSC®, PEFC, REDIII und EUDR."
+    },
+    "cta": {
+      "heading": "Suchen Sie einen zuverlässigen Holzlieferanten?",
+      "body": "Wir liefern hochwertiges Rundholz pünktlich und verlässlich — aus einem Netzwerk, dem Sie vertrauen können.",
+      "button": "Kontakt aufnehmen"
+    }
+  },
+  "services": {
+    "heading": "Unsere Leistungen",
+    "subheading": "Drei Kompetenzbereiche, ein verlässlicher Partner.",
+    "roundwood": {
+      "title": "Rundholzhandel und Agentur",
+      "body": "Wir beschaffen und vermitteln Sägestämme, Industrieholz, Energiehackschnitzel und Energieholz in der gesamten Ostseeregion. Unser lokales Partnernetzwerk sichert gleichmäßige Liefermengen und wettbewerbsfähige Preise.",
+      "features": ["Sägestämme für die Sägewerksindustrie", "Industrieholz für die Zellstoff- und Papierindustrie", "Energiehackschnitzel und Vollbaumbiomasse", "Ostseeweites Beschaffungsnetzwerk", "FSC®- und PEFC-zertifiziertes Holz"]
+    },
+    "software": {
+      "title": "Software für den Holzeinkauf",
+      "body": "Unsere Software ist auf die spezifischen Anforderungen des Holzeinkaufs ausgerichtet. Digitalisieren Sie Vermessungsprozesse, automatisieren Sie das Reporting und gewinnen Sie vollständige Transparenz über Ihre Einkaufsabläufe.",
+      "features": ["Vermessungs- und Sortierwerkzeuge für Holz", "Automatisierung von Einkaufsprozessen", "Dashboards für Compliance und Reporting", "Auf nordische Forstwirtschaftsstandards abgestimmt"]
+    },
+    "consulting": {
+      "title": "Beratung",
+      "body": "Ob Markteinstieg, Optimierung von Compliance-Prozessen oder Weiterentwicklung der Lieferkette — unsere Berater bringen tiefes Branchenwissen in Ihre Herausforderungen ein.",
+      "features": ["Beschaffungsstrategie", "Beratung zu REDIII- und EUDR-Compliance", "Marktanalyse und Lieferantenbewertung", "Optimierung der Lieferkette"]
+    }
+  },
+  "contact": {
+    "heading": "Kontaktieren Sie uns",
+    "subheading": "Wir antworten innerhalb eines Werktages.",
+    "form": {
+      "name": "Vollständiger Name", "email": "E-Mail-Adresse", "company": "Unternehmen", "message": "Nachricht",
+      "name_placeholder": "Ihr Name", "email_placeholder": "sie@unternehmen.de",
+      "company_placeholder": "Ihr Unternehmen", "message_placeholder": "Wie können wir helfen?",
+      "submit": "Nachricht senden",
+      "success": "Vielen Dank — wir melden uns in Kürze bei Ihnen.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an info@fornello.fi."
+    },
+    "info": { "address_label": "Adresse", "phone_label": "Telefon", "email_label": "E-Mail" }
+  },
+  "footer": {
+    "tagline": "Qualitätsrundholz aus der Ostseeregion.",
+    "nav_label": "Kontakt",
+    "lang_label": "Sprache",
+    "copyright": "© {year} Fornello Oy. Alle Rechte vorbehalten."
+  },
+  "common": {
+    "learn_more": "Mehr erfahren", "contact_us": "Kontakt aufnehmen", "back_to_top": "Nach oben",
+    "loading": "Wird gesendet…", "required_field": "Dieses Feld ist erforderlich."
+  }
+}

@@ -1,1 +1,116 @@
-{ "meta": { "home": { "title": "Fornello Oy", "description": "Quality roundwood from the Baltic Sea region." } } }
+{
+  "meta": {
+    "home": {
+      "title": "Fornello Oy — Laadukasta pyöreää puuta Itämeren alueelta",
+      "description": "Suomalainen puukaupan ammattilainen. FSC®- ja PEFC-sertifioitua tukkipuuta, kuitupuuta ja biomassaa."
+    },
+    "services": {
+      "title": "Palvelut — Fornello Oy",
+      "description": "Puukauppa ja agentuuri, puunostoohjelmisto sekä konsultointi."
+    },
+    "contact": {
+      "title": "Ota yhteyttä — Fornello Oy",
+      "description": "Ota yhteyttä Fornello Oy:hyn. Latoluomantie 30, 29100 Luvia. +358 500 110 220."
+    }
+  },
+  "nav": {
+    "home": "Etusivu",
+    "services": "Palvelut",
+    "contact": "Yhteystiedot",
+    "logo_alt": "Fornello Oy"
+  },
+  "home": {
+    "hero": {
+      "headline": "Luotettavaa puuta. Vastuullisesti hankittuna.",
+      "subheadline": "Fornello toimittaa laadukasta pyöreää puuta Itämeren alueelta — tukkipuuta, kuitupuuta ja energiapuuta teollisuuden ja energiantuotannon tarpeisiin.",
+      "cta_primary": "Ota yhteyttä",
+      "cta_secondary": "Palvelumme"
+    },
+    "intro": {
+      "body": "Fornello Oy on suomalainen puukaupan erikoisyritys, joka toimii Itämeren alueella. Yhdistämme teollisuusasiakkaat laajaan, FSC®- ja PEFC-sertifioituun metsävarantoon — luotettavan logistiikkaverkoston ja vuosikymmenten paikallisen asiantuntemuksen tuella."
+    },
+    "supply": {
+      "heading": "Mitä toimitamme",
+      "sawlogs": { "label": "Tukkipuu", "desc": "Korkealaatuisia tukkeja saha- ja rakennetimbertuotantoon." },
+      "pulpwood": { "label": "Kuitupuu", "desc": "Tasalaatuista kuitua sellu- ja paperiteollisuudelle." },
+      "energy_chips": { "label": "Energiahake", "desc": "Haketta bioenergia- ja voimalaitoksille." },
+      "energy_wood": { "label": "Energiapuu", "desc": "Kokorunkobiomassaa lämmön ja sähkön tuotantoon." }
+    },
+    "why": {
+      "heading": "Miksi Fornello",
+      "supply": {
+        "title": "Laaja toimituskyky",
+        "body": "Kattava yhteistyöverkosto Itämeren alueella takaa suuret ja tasaiset toimitusmäärät — myös tiukassa markkinatilanteessa."
+      },
+      "sustainability": {
+        "title": "Vastuullinen hankinta",
+        "body": "Kaikki toimitukset täyttävät FSC®-, PEFC-, REDIII- ja EUDR-vaatimukset. Kestävä metsänhoito on toimintatapamme, ei pelkkä muodollisuus."
+      },
+      "quality": {
+        "title": "Laadunvarmistus",
+        "body": "Huolellinen lajittelu ja mittaus alkuperässä. Sovittu tavara toimitetaan sovitusti joka kerta."
+      },
+      "logistics": {
+        "title": "Luotettava logistiikka",
+        "body": "Paikalliset kumppanuudet ja tehokkaat kuljetusverkostot pitävät toimitusketjusi aikataulussa."
+      }
+    },
+    "services_overview": {
+      "heading": "Mitä teemme",
+      "roundwood": { "title": "Puukauppa ja agentuuri", "body": "Tukkipuun, kuitupuun ja biomassan hankinta, välitys ja logistiikka Itämeren alueella.", "cta": "Lue lisää" },
+      "software": { "title": "Puunostoohjelmisto", "body": "Puunoston, mittauksen ja raportoinnin digitalisoiva ohjelmisto.", "cta": "Lue lisää" },
+      "consulting": { "title": "Konsultointi", "body": "Asiantuntija-apua hankintastrategiaan, vaatimustenmukaisuuteen ja markkina-asemointiin.", "cta": "Lue lisää" }
+    },
+    "certifications": {
+      "heading": "Sertifioinnit ja vaatimustenmukaisuus",
+      "note": "Kaikki hankinta täyttää FSC®-, PEFC-, REDIII- ja EUDR-vaatimukset."
+    },
+    "cta": {
+      "heading": "Etsittekö luotettavaa puutavaratoimittajaa?",
+      "body": "Toimitamme laadukasta pyöreää puuta ajallaan — verkostosta, johon voi luottaa.",
+      "button": "Ota yhteyttä"
+    }
+  },
+  "services": {
+    "heading": "Palvelumme",
+    "subheading": "Kolme osaamisaluetta, yksi luotettava kumppani.",
+    "roundwood": {
+      "title": "Puukauppa ja agentuuri",
+      "body": "Hankimme ja välitämme tukkipuuta, kuitupuuta, energiahaketta ja energiapuuta Itämeren alueella. Paikallinen yhteistyöverkostomme takaa tasaiset toimitusmäärät ja kilpailukykyiset hinnat.",
+      "features": ["Tukkipuu sahateollisuudelle", "Kuitupuu sellu- ja paperiteollisuudelle", "Energiahake ja kokorunkobiomassat", "Itämeren laajuinen hankintaverkosto", "FSC®- ja PEFC-sertifioitu puu"]
+    },
+    "software": {
+      "title": "Puunostoohjelmisto",
+      "body": "Ohjelmistomme on suunniteltu puunoston erityisvaatimuksiin. Digitalisoi mittaukset, automatisoi raportointi ja saa täysi näkyvyys hankintaoperaatioihisi.",
+      "features": ["Puun mittaus- ja lajittelutyökalut", "Hankintaprosessien automatisointi", "Vaatimustenmukaisuus- ja raportointinäkymät", "Räätälöity pohjoismaisille metsänhoitostandardeille"]
+    },
+    "consulting": {
+      "title": "Konsultointi",
+      "body": "Autamme uusille markkinoille laajentamisessa, vaatimustenmukaisuusprosessien kehittämisessä ja toimitusketjun optimoinnissa.",
+      "features": ["Hankintastrategia", "REDIII- ja EUDR-vaatimustenmukaisuusneuvonta", "Markkina-analyysi ja toimittaja-arviointi", "Toimitusketjun optimointi"]
+    }
+  },
+  "contact": {
+    "heading": "Ota yhteyttä",
+    "subheading": "Vastaamme yhden arkipäivän kuluessa.",
+    "form": {
+      "name": "Koko nimi", "email": "Sähköpostiosoite", "company": "Yritys", "message": "Viesti",
+      "name_placeholder": "Nimesi", "email_placeholder": "sinä@yritys.fi",
+      "company_placeholder": "Yrityksesi", "message_placeholder": "Miten voimme auttaa?",
+      "submit": "Lähetä viesti",
+      "success": "Kiitos — otamme sinuun pian yhteyttä.",
+      "error": "Jokin meni pieleen. Yritä uudelleen tai lähetä sähköpostia osoitteeseen info@fornello.fi."
+    },
+    "info": { "address_label": "Osoite", "phone_label": "Puhelin", "email_label": "Sähköposti" }
+  },
+  "footer": {
+    "tagline": "Laadukasta pyöreää puuta Itämeren alueelta.",
+    "nav_label": "Yhteystiedot",
+    "lang_label": "Kieli",
+    "copyright": "© {year} Fornello Oy. Kaikki oikeudet pidätetään."
+  },
+  "common": {
+    "learn_more": "Lue lisää", "contact_us": "Ota yhteyttä", "back_to_top": "Takaisin ylös",
+    "loading": "Lähetetään…", "required_field": "Tämä kenttä on pakollinen."
+  }
+}

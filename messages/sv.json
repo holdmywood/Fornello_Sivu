@@ -1,1 +1,116 @@
-{ "meta": { "home": { "title": "Fornello Oy", "description": "Quality roundwood from the Baltic Sea region." } } }
+{
+  "meta": {
+    "home": {
+      "title": "Fornello Oy — Kvalitetsvirke från Östersjöregionen",
+      "description": "Finsk specialist på virkeshandel. FSC®- och PEFC-certifierade sågstockar, massaved och biomassa."
+    },
+    "services": {
+      "title": "Tjänster — Fornello Oy",
+      "description": "Virkeshandel och agentur, programvara för virkesköp samt konsulttjänster."
+    },
+    "contact": {
+      "title": "Kontakt — Fornello Oy",
+      "description": "Kontakta Fornello Oy. Latoluomantie 30, 29100 Luvia, Finland. +358 500 110 220."
+    }
+  },
+  "nav": {
+    "home": "Hem",
+    "services": "Tjänster",
+    "contact": "Kontakt",
+    "logo_alt": "Fornello Oy"
+  },
+  "home": {
+    "hero": {
+      "headline": "Pålitligt virke. Ansvarsfullt anskaffat.",
+      "subheadline": "Fornello levererar kvalitetsvirke från Östersjöregionen — sågstockar, massaved och energived för industri och energiproduktion.",
+      "cta_primary": "Kontakta oss",
+      "cta_secondary": "Våra tjänster"
+    },
+    "intro": {
+      "body": "Fornello Oy är ett finskt specialistföretag inom virkeshandel med verksamhet i hela Östersjöregionen. Vi förbinder industriella köpare med stora, FSC®- och PEFC-certifierade skogsresurser — med stöd av ett pålitligt logistiknätverk och decennier av lokal expertis."
+    },
+    "supply": {
+      "heading": "Vad vi levererar",
+      "sawlogs": { "label": "Sågstockar", "desc": "Högkvalitativa stockar för såg- och konstruktionsvirke." },
+      "pulpwood": { "label": "Massaved", "desc": "Jämn kvalitet på fiber för massa- och pappersindustrin." },
+      "energy_chips": { "label": "Energiflis", "desc": "Processad träflis för bioenergi- och kraftvärmeverk." },
+      "energy_wood": { "label": "Energived", "desc": "Helträdsbiomasssa för värme- och elproduktion." }
+    },
+    "why": {
+      "heading": "Varför Fornello",
+      "supply": {
+        "title": "Riklig tillgång",
+        "body": "Ett omfattande samarbetsnätverk i Östersjöregionen ger er tillgång till stora, jämna volymer — även i ett ansträngt marknadsläge."
+      },
+      "sustainability": {
+        "title": "Ansvarsfullt anskaffande",
+        "body": "Varje leverans uppfyller kraven i FSC®, PEFC, REDIII och EUDR. Hållbart skogsbruk är vårt arbetssätt, inte en formalitet."
+      },
+      "quality": {
+        "title": "Kvalitetssäkring",
+        "body": "Noggrann sortering och mätning vid källan. Avtalad vara levereras som avtalat, varje gång."
+      },
+      "logistics": {
+        "title": "Tillförlitlig logistik",
+        "body": "Lokala partnerskap och effektiva transportnätverk håller er leveranskedja i tid."
+      }
+    },
+    "services_overview": {
+      "heading": "Vad vi gör",
+      "roundwood": { "title": "Virkeshandel och agentur", "body": "Anskaffning, förmedling och logistik för sågstockar, massaved och biomassa i Östersjöregionen.", "cta": "Läs mer" },
+      "software": { "title": "Programvara för virkesköp", "body": "Ändamålsenliga verktyg som effektiviserar virkesupphandling, mätning och rapportering.", "cta": "Läs mer" },
+      "consulting": { "title": "Konsulttjänster", "body": "Expertråd kring upphandlingsstrategi, regelefterlevnad och marknadspositionering.", "cta": "Läs mer" }
+    },
+    "certifications": {
+      "heading": "Regelefterlevnad och certifieringar",
+      "note": "All anskaffning uppfyller kraven i FSC®, PEFC, REDIII och EUDR."
+    },
+    "cta": {
+      "heading": "Söker ni en pålitlig virkesleverantör?",
+      "body": "Vi levererar kvalitetsvirke i tid, varje gång — från ett nätverk ni kan lita på.",
+      "button": "Kontakta oss"
+    }
+  },
+  "services": {
+    "heading": "Våra tjänster",
+    "subheading": "Tre kompetensområden, en pålitlig partner.",
+    "roundwood": {
+      "title": "Virkeshandel och agentur",
+      "body": "Vi anskaffar och förmedlar sågstockar, massaved, energiflis och energived i hela Östersjöregionen. Vårt lokala partnernätverk säkerställer jämna leveransvolymer och konkurrenskraftiga priser.",
+      "features": ["Sågstockar för sågverksindustrin", "Massaved för massa- och pappersindustrin", "Energiflis och helträdsbiomassor", "Östersjöomfattande anskaffningsnätverk", "FSC®- och PEFC-certifierat virke"]
+    },
+    "software": {
+      "title": "Programvara för virkesköp",
+      "body": "Vår programvara är byggd för virkesupphandlingens specifika krav. Digitalisera mätning, automatisera rapportering och få full insyn i era inköpsoperationer.",
+      "features": ["Mätnings- och sorteringsverktyg för virke", "Automatisering av upphandlingsflöden", "Kontrollpaneler för regelefterlevnad och rapportering", "Anpassad till nordiska skogsbruksstandarder"]
+    },
+    "consulting": {
+      "title": "Konsulttjänster",
+      "body": "Oavsett om ni expanderar till nya marknader, skärper regelefterlevnadsprocesser eller optimerar er leveranskedja bidrar våra konsulter med djup branschkunskap.",
+      "features": ["Upphandlingsstrategi", "Rådgivning om REDIII- och EUDR-efterlevnad", "Marknadsanalys och leverantörsutvärdering", "Optimering av leveranskedjan"]
+    }
+  },
+  "contact": {
+    "heading": "Kontakta oss",
+    "subheading": "Vi svarar inom en arbetsdag.",
+    "form": {
+      "name": "Fullständigt namn", "email": "E-postadress", "company": "Företag", "message": "Meddelande",
+      "name_placeholder": "Ditt namn", "email_placeholder": "du@foretag.se",
+      "company_placeholder": "Ditt företag", "message_placeholder": "Hur kan vi hjälpa?",
+      "submit": "Skicka meddelande",
+      "success": "Tack — vi hör av oss inom kort.",
+      "error": "Något gick fel. Försök igen eller skicka e-post direkt till info@fornello.fi."
+    },
+    "info": { "address_label": "Adress", "phone_label": "Telefon", "email_label": "E-post" }
+  },
+  "footer": {
+    "tagline": "Kvalitetsvirke från Östersjöregionen.",
+    "nav_label": "Kontakt",
+    "lang_label": "Språk",
+    "copyright": "© {year} Fornello Oy. Alla rättigheter förbehållna."
+  },
+  "common": {
+    "learn_more": "Läs mer", "contact_us": "Kontakta oss", "back_to_top": "Till toppen",
+    "loading": "Skickar…", "required_field": "Det här fältet är obligatoriskt."
+  }
+}
