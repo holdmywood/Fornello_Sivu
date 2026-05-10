@@ -1,6 +1,24 @@
+import type { Metadata } from 'next'
+import { getTranslations } from 'next-intl/server'
 import { useTranslations } from 'next-intl'
+import { buildAlternates } from '@/lib/metadata'
 import { ContactForm } from '@/components/contact/ContactForm'
 import { MapPin, Phone, Mail } from 'lucide-react'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'meta.contact' })
+  return {
+    title: t('title'),
+    description: t('description'),
+    alternates: buildAlternates('/contact'),
+    openGraph: { title: t('title'), description: t('description'), locale, type: 'website' },
+  }
+}
 
 export default function ContactPage() {
   const t = useTranslations('contact')
@@ -16,12 +34,10 @@ export default function ContactPage() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
-          {/* Form */}
           <div className="lg:col-span-3 bg-white rounded-xl shadow-sm border border-moss-200/50 p-8">
             <ContactForm />
           </div>
 
-          {/* Info */}
           <div className="lg:col-span-2 space-y-8">
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-forest-600 mb-5">
@@ -34,7 +50,6 @@ export default function ContactPage() {
                 </span>
               </div>
             </div>
-
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-forest-600 mb-5">
                 {t('info.phone_label')}
@@ -46,7 +61,6 @@ export default function ContactPage() {
                 </a>
               </div>
             </div>
-
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-forest-600 mb-5">
                 {t('info.email_label')}
