@@ -1,116 +1,416 @@
 {
   "meta": {
     "home": {
-      "title": "Fornello Oy — Qualitätsrundholz aus der Ostseeregion",
-      "description": "Finnischer Spezialist für Holzhandel. FSC®- und PEFC-zertifizierte Sägestämme, Industrieholz und Biomasse."
+      "title": "Fornello Oy — Skandinavischer Holzhandel",
+      "description": "Fornello Oy ist ein finnisches Unternehmen, das sich auf Rundholzhandel und Agentur, Software für den Holzeinkauf sowie Beratungsleistungen spezialisiert hat."
     },
     "services": {
       "title": "Leistungen — Fornello Oy",
-      "description": "Rundholzhandel und Agentur, Software für den Holzeinkauf sowie Beratungsleistungen."
+      "description": "Rundholzhandel und Agentur, Software für den Holzeinkauf sowie Beratungsleistungen von Fornello Oy."
     },
     "contact": {
       "title": "Kontakt — Fornello Oy",
       "description": "Kontaktieren Sie Fornello Oy. Latoluomantie 30, 29100 Luvia, Finnland. +358 500 110 220."
+    },
+    "services_roundwood": {
+      "title": "Rundholzhandel und Agentur — Fornello Oy",
+      "description": "Fornello Oy beschafft und vermittelt Holz über Lieferhandel. Partner sind Waldpflegevereine, Sägewerke und Holzbeschaffungsunternehmen. PEFC- und FSC-zertifiziert."
+    },
+    "services_software": {
+      "title": "Softwaregeschäft — Fornello Oy",
+      "description": "Forlog-Produktfamilie: Haukka, Pöllö und Kyyhky – browserbasierte Software für Holzbeschaffung und Bioenergie."
+    },
+    "services_consulting": {
+      "title": "Beratung — Fornello Oy",
+      "description": "Fornello bietet Beratungsleistungen im Bereich Holzherkunftsverwaltung, Logistik und Holzbeschaffungsorganisation."
+    },
+    "ymparisto": {
+      "title": "Umwelt — Fornello Oy",
+      "description": "Fornello Oy übernimmt Verantwortung für die Umwelt. PEFC- und FSC-zertifizierte Holzbeschaffung auf biologisch, ökologisch und sozial nachhaltige Weise."
+    },
+    "eudr": {
+      "title": "EUDR — Fornello Oy",
+      "description": "Die EU-Entwaldungsverordnung (EUDR) stellt strenge Anforderungen an Holzbeschaffungsunternehmen hinsichtlich der Rückverfolgbarkeit und des Datenmanagements für Holz."
     }
   },
   "nav": {
     "home": "Startseite",
     "services": "Leistungen",
     "contact": "Kontakt",
-    "logo_alt": "Fornello Oy"
+    "logo_alt": "Fornello Oy",
+    "ymparisto": "Umwelt"
   },
   "home": {
     "hero": {
-      "headline": "Zuverlässiges Holz. Verantwortungsvoll beschafft.",
-      "subheadline": "Fornello liefert hochwertiges Rundholz aus der Ostseeregion — Sägestämme, Industrieholz und Energieholz für Industrie und Energieerzeugung.",
+      "headline": "Gute Geschäfte für alle!",
+      "subheadline": "Fornello Oy ist ein finnisches Unternehmen, dessen Hauptgeschäftsfelder Rundholzhandel und Agentur, Softwaregeschäft mit Fokus auf Holzeinkauf sowie Beratung in der Branche sind.",
       "cta_primary": "Kontakt aufnehmen",
       "cta_secondary": "Unsere Leistungen"
     },
     "intro": {
-      "body": "Fornello Oy ist ein finnisches Spezialunternehmen für den Holzhandel, das in der gesamten Ostseeregion tätig ist. Wir verbinden Industriekunden mit umfangreichen, FSC®- und PEFC-zertifizierten Waldressourcen — gestützt auf ein zuverlässiges Logistiknetzwerk und jahrzehntelange lokale Expertise."
+      "body": "Suchen Sie einen zuverlässigen Partner für Lieferungen von Sägestämmen, Industrieholz, Energiehackschnitzeln oder Energieholz? Dann sind Sie hier richtig."
     },
     "supply": {
-      "heading": "Unser Lieferprogramm",
-      "sawlogs": { "label": "Sägestämme", "desc": "Hochwertige Stämme für die Säge- und Konstruktionsholzproduktion." },
-      "pulpwood": { "label": "Industrieholz", "desc": "Gleichmäßig hochwertige Faser für die Zellstoff- und Papierindustrie." },
-      "energy_chips": { "label": "Energiehackschnitzel", "desc": "Aufbereitete Holzhackschnitzel für Biomasse- und Heizkraftwerke." },
-      "energy_wood": { "label": "Energieholz", "desc": "Vollbaumbiomasse für Wärme- und Stromerzeugung." }
+      "heading": "Willkommen bei den Quellen für Sägestämme, Industrieholz, Energiehackschnitzel und Energieholz!",
+      "sawlogs": {
+        "label": "Sägestämme",
+        "desc": "Hochwertige Stämme für die Säge- und Konstruktionsholzproduktion."
+      },
+      "pulpwood": {
+        "label": "Industrieholz",
+        "desc": "Gleichmäßig hochwertige Faser für die Zellstoff- und Papierindustrie."
+      },
+      "energy_chips": {
+        "label": "Energiehackschnitzel",
+        "desc": "Aufbereitete Holzhackschnitzel für Bioenergie- und Heizkraftwerke."
+      },
+      "energy_wood": {
+        "label": "Energieholz",
+        "desc": "Vollbaumbiomasse für Wärme- und Stromerzeugung."
+      }
     },
     "why": {
-      "heading": "Warum Fornello",
+      "heading": "Warum Fornello Oy als Ihren Lieferanten wählen?",
       "supply": {
-        "title": "Umfangreiches Angebot",
-        "body": "Ein weitreichendes Kooperationsnetzwerk in der Ostseeregion sichert Ihnen Zugang zu großen, gleichmäßigen Mengen — auch in angespannten Marktsituationen."
+        "title": "Ausreichende Ressourcen",
+        "body": "Die Ostseeregion bietet reichlich Möglichkeiten für die Produktion aller Arten von Waldprodukten, ohne die Nachhaltigkeit oder Biodiversität der Wälder zu gefährden. Durch sein umfangreiches Kooperationsnetzwerk beschafft Fornello Oy alle Materialien stets aus den besten und kosteneffizientesten Quellen – zu Ihrem Vorteil!"
       },
       "sustainability": {
-        "title": "Verantwortungsvolle Beschaffung",
-        "body": "Jede Lieferung erfüllt die Anforderungen von FSC®, PEFC, REDIII und EUDR. Nachhaltige Forstwirtschaft ist unsere Arbeitsweise, kein bürokratisches Pflichtprogramm."
+        "title": "Nachhaltige Forstwirtschaft",
+        "body": "Die Forstwirtschaft wird verantwortungsvoll und nachhaltig betrieben. Die Wälder werden so bewirtschaftet, dass ihre ökologische Vielfalt erhalten bleibt, und es besteht ein Gleichgewicht zwischen Forstwirtschaft und Natur. Die Einhaltung von Gesetzen und Vorschriften ist selbstverständlich. Darüber hinaus verfügt Fornello Oy über ein Chain-of-Custody-Zertifikat sowohl im FSC®- als auch im PEFC-Zertifizierungssystem. Selbstverständlich werden auch die REDIII- und EUDR-Regeln befolgt."
       },
       "quality": {
-        "title": "Qualitätssicherung",
-        "body": "Sorgfältige Sortierung und Vermessung an der Quelle. Die vereinbarte Ware wird wie vereinbart geliefert — jedes Mal."
+        "title": "Hohe Qualität",
+        "body": "Wir setzen bewährte Praktiken und Technologien ein, um sicherzustellen, dass unsere Produkte den vereinbarten Spezifikationen entsprechen und Qualitäts- sowie Reinheitsstandards erfüllen."
       },
       "logistics": {
-        "title": "Zuverlässige Logistik",
-        "body": "Lokale Partnerschaften und effiziente Transportnetzwerke halten Ihre Lieferkette im Zeitplan."
+        "title": "Zuverlässige Lieferkette",
+        "body": "In Zusammenarbeit mit lokalen Partnern können wir eine kontinuierliche und zuverlässige Lieferkette gewährleisten. Unsere effizienten Logistiknetzwerke ermöglichen präzise und sichere Lieferungen an Ihre Ziele."
       }
     },
     "services_overview": {
-      "heading": "Unser Leistungsspektrum",
-      "roundwood": { "title": "Rundholzhandel und Agentur", "body": "Beschaffung, Vermittlung und Logistik für Sägestämme, Industrieholz und Biomasse in der Ostseeregion.", "cta": "Mehr erfahren" },
-      "software": { "title": "Software für den Holzeinkauf", "body": "Zweckgerichtete Werkzeuge zur Optimierung von Holzbeschaffung, Vermessung und Reporting.", "cta": "Mehr erfahren" },
-      "consulting": { "title": "Beratung", "body": "Fachkundige Unterstützung bei Beschaffungsstrategie, Compliance und Marktpositionierung.", "cta": "Mehr erfahren" }
+      "heading": "Leistungen",
+      "roundwood": {
+        "title": "Rundholzhandel und Agentur",
+        "body": "Beschaffung, Vermittlung und Logistik für Sägestämme, Industrieholz, Energiehackschnitzel und Energieholz in der Ostseeregion.",
+        "cta": "Mehr erfahren"
+      },
+      "software": {
+        "title": "Softwaregeschäft",
+        "body": "Software für den Holzeinkauf und das Beschaffungsmanagement.",
+        "cta": "Mehr erfahren"
+      },
+      "consulting": {
+        "title": "Beratung",
+        "body": "Beratungsleistungen im Bereich Holzeinkauf.",
+        "cta": "Mehr erfahren"
+      }
     },
     "certifications": {
-      "heading": "Compliance und Zertifizierungen",
-      "note": "Alle Beschaffungsvorgänge erfüllen die Anforderungen von FSC®, PEFC, REDIII und EUDR."
+      "heading": "Zertifizierungen und Compliance",
+      "note": "Fornello Oy verfügt über ein Chain-of-Custody-Zertifikat im FSC®- und PEFC-Zertifizierungssystem. REDIII- und EUDR-Regeln werden eingehalten."
     },
     "cta": {
-      "heading": "Suchen Sie einen zuverlässigen Holzlieferanten?",
-      "body": "Wir liefern hochwertiges Rundholz pünktlich und verlässlich — aus einem Netzwerk, dem Sie vertrauen können.",
+      "heading": "Suchen Sie einen Rundholzlieferanten?",
+      "body": "Nehmen Sie Kontakt auf, und wir besprechen Ihren Bedarf.",
       "button": "Kontakt aufnehmen"
+    },
+    "gallery": {
+      "heading": "Entdecken Sie unsere Tätigkeit in Bildern",
+      "button": "Bilder ansehen"
     }
   },
   "services": {
-    "heading": "Unsere Leistungen",
-    "subheading": "Drei Kompetenzbereiche, ein verlässlicher Partner.",
+    "heading": "Leistungen",
+    "subheading": "Fornello Oy ist ein finnisches Unternehmen, dessen Tätigkeitsbereiche Rundholzhandel und Agentur, Softwaregeschäft sowie Beratung im Bereich Holzeinkauf sind.",
     "roundwood": {
       "title": "Rundholzhandel und Agentur",
-      "body": "Wir beschaffen und vermitteln Sägestämme, Industrieholz, Energiehackschnitzel und Energieholz in der gesamten Ostseeregion. Unser lokales Partnernetzwerk sichert gleichmäßige Liefermengen und wettbewerbsfähige Preise.",
-      "features": ["Sägestämme für die Sägewerksindustrie", "Industrieholz für die Zellstoff- und Papierindustrie", "Energiehackschnitzel und Vollbaumbiomasse", "Ostseeweites Beschaffungsnetzwerk", "FSC®- und PEFC-zertifiziertes Holz"]
+      "body": "Fornello Oy beschafft und vermittelt Sägestämme, Industrieholz, Energiehackschnitzel und Energieholz in der Ostseeregion. Das Unternehmen importiert und exportiert hochwertige skandinavische Holzprodukte zu FOB- oder CIF-Preisen.",
+      "features": [
+        "Sägestämme",
+        "Industrieholz",
+        "Energiehackschnitzel",
+        "Energieholz",
+        "FSC®- und PEFC-zertifiziertes Holz"
+      ]
     },
     "software": {
-      "title": "Software für den Holzeinkauf",
-      "body": "Unsere Software ist auf die spezifischen Anforderungen des Holzeinkaufs ausgerichtet. Digitalisieren Sie Vermessungsprozesse, automatisieren Sie das Reporting und gewinnen Sie vollständige Transparenz über Ihre Einkaufsabläufe.",
-      "features": ["Vermessungs- und Sortierwerkzeuge für Holz", "Automatisierung von Einkaufsprozessen", "Dashboards für Compliance und Reporting", "Auf nordische Forstwirtschaftsstandards abgestimmt"]
+      "title": "Softwaregeschäft",
+      "body": "Software für den Holzeinkauf und das Beschaffungsmanagement.",
+      "features": [
+        "Werkzeuge für die Holzbeschaffung",
+        "Vermessung und Reporting",
+        "Compliance-Unterstützung"
+      ]
     },
     "consulting": {
       "title": "Beratung",
-      "body": "Ob Markteinstieg, Optimierung von Compliance-Prozessen oder Weiterentwicklung der Lieferkette — unsere Berater bringen tiefes Branchenwissen in Ihre Herausforderungen ein.",
-      "features": ["Beschaffungsstrategie", "Beratung zu REDIII- und EUDR-Compliance", "Marktanalyse und Lieferantenbewertung", "Optimierung der Lieferkette"]
+      "body": "Beratungsleistungen im Bereich Holzeinkauf.",
+      "features": [
+        "Beschaffungsstrategie",
+        "REDIII- und EUDR-Compliance",
+        "Marktberatung"
+      ]
+    },
+    "roundwood_page": {
+      "tagline": "Immer zu den besten Preisen und Konditionen verkaufen – oder günstiges Importholz kaufen",
+      "section1": {
+        "heading": "Finnisches Holz in die Welt",
+        "body1": "Fornello Oy beschafft Holz in ganz Finnland, hauptsächlich im Lieferhandel und in der Regel nur an wenige Lieferorte gleichzeitig. Ziel ist es unter anderem, Holz aus Regionen zu beschaffen, wo es sich sonst schwerer verkaufen lässt. Zu den Beschaffungspartnern und liefernden Kunden gehören Forstpflegevereine, Sägewerke, Holzbeschaffungsunternehmen (z. B. im Bioenergiebereich) sowie gelegentlich private Waldbesitzer. Das beschaffte Holz wird entweder an die heimische Industrie oder an Exportmärkte verkauft, unter Nutzung eines umfangreichen Kontaktnetzwerks und langjähriger Erfahrung im In- und Auslandshandel. Fornello Oy verfügt über PEFC- und FSC®-Zertifikate für die Herkunftskettenverwaltung.",
+        "body2": "Fornello Oy kauft unter anderem Industrieholz und sogenanntes Zweitklassenholz (in Finnland eine wenig bekannte Kategorie), gelegentlich auch Kleinstammholz und normales Stammholz. Die Lagerbestände werden schnell umgeschlagen – Holz wird nicht am Straßenrand verrotten gelassen, und Waldzahlungen erfolgen zügig. Die häufigste Handelsform ist der Lieferhandel, es gibt jedoch auch Straßenrandhandel (Direktbeschaffung). Die Geschäftstätigkeit erstreckt sich von Südfinnland bis nach Lappland. Finnisches Holz ist ein hervorragendes Produkt, und jeder beschaffte Kubikmeter bringt dringend benötigte Beschäftigungsmöglichkeiten und Zusatzeinkommen dorthin, wo sie am meisten gebraucht werden."
+      },
+      "section2": {
+        "heading": "Wachsender Holzhandel belebt die Wirtschaft",
+        "body1": "Im Ostseeraum wird ein lebhafter Holzhandel betrieben, bei dem Finnland als Verkäufer kaum in Erscheinung tritt. Dabei verfügt Finnland unter den Ostseestaaten über außergewöhnlich große ungenutzte Waldreserven: Jährlich wachsen rund 110 Millionen Kubikmeter, während nur etwa 68 Millionen für Industrie und Energie genutzt werden – das Holzkapital Finnlands wächst also jährlich um 30 Millionen Kubikmeter. Um so viel könnte der Einschlag gesteigert werden, ohne die Waldreserven zu reduzieren. Insbesondere Kiefernzellstoffholz ist im Überfluss vorhanden. Finnisches Holz ist als Exportprodukt nie günstig, doch Käufer, die Lieferzuverlässigkeit und ein vorhersehbar stabiles Preisniveau schätzen, finden sich stets.",
+        "body2": "Eine erhöhte Zellstoffholzernte hat enorme positive Auswirkungen. Bereits eine Steigerung um 100 000 m³ schafft Beschäftigung für 3–4 Durchforstungsmaschinenteams (12–16 Maschinenführer), 2–3 Holztransporter (4–6 Fahrer) und 2–3 Büroangestellte – ganz abgesehen vom Wachstum der Rohholzeinnahmen. An die heimische Industrie geliefertes Holz kann zudem Importe ersetzen, während Exporte einen direkten Nettoanstieg darstellen. Die jüngsten Nachrichten über neue Investitionen in der Zellstoffindustrie sind äußerst ermutigend!"
+      },
+      "section3": {
+        "heading": "Importe bei Bedarf",
+        "body": "Auch wenn Finnland grundsätzlich über ausreichend Holz verfügt, gibt es Situationen, in denen Importe sinnvoll sind. Der Einsatz von hochwertigem finnischem Zellstoffholz zur Energieerzeugung verdient eine kritische Betrachtung. Wenn alles für die Industrie ungeeignete oder anderweitig geringwertige Holz bereits der Energienutzung zugeführt wurde, ist es für zusätzlichen Bedarf manchmal sinnvoller zu importieren, sofern geeignetes Material zu einem vernünftigen Preis verfügbar ist. Über das umfangreiche internationale Kontaktnetzwerk von Fornello Oy lässt sich stets der jeweils günstigste Importkanal finden. Fragen Sie gerne nach!"
+      }
+    },
+    "software_page": {
+      "tagline": "Behalten Sie das Gesamtbild im Griff und verdienen Sie wirklich Geld mit der Holzbeschaffung.",
+      "intro": "Die Forlog-Produktfamilie bietet ein modernes ERP-System mit fortschrittlichen Funktionen – zu sehr günstigen Kosten. Das System deckt alle Phasen der Holzbeschaffung vom Angebot bis zum Endverbraucher ab. Die Software ist modular aufgebaut und Module für Bioenergie-Betrieb und Berechnungen sind ebenfalls verfügbar. Fragen Sie nach einem Probelauf! Die Software unterstützt EUDR-konforme Erfassung, Verwaltung, Speicherung und Berichterstattung von Herkunftsdaten. Im Jahr 2025 wird die Software mit dem TRACES-System integriert.",
+      "eudr_badge": "EUDR kommt – sind Sie bereit?",
+      "products_heading": "Forlog-Produktfamilie",
+      "products": [
+        {
+          "name": "Haukka",
+          "tagline": "Browserbasiertes System für alle Holzbeschaffungsfunktionen – funktioniert auch auf dem Smartphone",
+          "features": [
+            "Deckungsbeitragsberechnung bereits in der Angebotsphase",
+            "Vielseitige Lagerfunktionen",
+            "Automatische Berechnung von Straßentransportentfernungen und Routenplanung",
+            "Aktuelle Kartenmaterialien (Geländekarten, Hintergrundkarten, Orthofotografien, Immobiliendaten)",
+            "Schnelle, hochautomatisierte Tarifberechnungen (Einschlag und Ferntransport)",
+            "Stets Echtzeit-Lagerinformationen mit Karten (auch für Fahrer)",
+            "Arbeitsanweisungen/Karten für Harvester und Import von Produktionsdaten",
+            "Kein Versenden von Fahraufträgen und Arbeitsanweisungen – sofort sichtbar wenn gespeichert",
+            "Integriert mit Forest Hub – papiNet-Standard gewährleistet Datenkonsistenz in der gesamten Lieferkette",
+            "Organisationsebenen-Option (z.B. für mehrere Beschaffungsgebiete)",
+            "Ursprungsmanagement-Zertifikate berücksichtigt: PEFC, FSC und SBP",
+            "Umfassende, anpassbare Berichterstattung"
+          ]
+        },
+        {
+          "name": "Pöllö",
+          "tagline": "Ein System speziell für die Bioenergie-Branche",
+          "features": [
+            "Enthält alle Haukka-Funktionen plus Bioenergie-Arbeitstypen",
+            "Erweiterte Berechnungen: konvertiert und vergleicht verschiedene Einheiten (m³ / Schüttraum-m³ / MWh)",
+            "Deckungsbeitragsberechnung in der Angebotsphase – auch beim Einkauf in Kubikmetern und Verkauf in MWh",
+            "Berechnung von Trocknungszeiten und Feuchtigkeitsverfolgung und -umrechnung für Lager",
+            "Abdeckung des Ursprungsmanagements (z.B. für Subventionen der Stromproduktion erforderlich)",
+            "Umfassende, anpassbare Berichterstattung"
+          ]
+        },
+        {
+          "name": "Kyyhky",
+          "tagline": "Für Lager- und Transportmanagement",
+          "features": [
+            "Echtzeit-Lagerpflege",
+            "Automatische Berechnung von Straßentransportentfernungen und Routenplanung",
+            "Aktuelle Kartenmaterialien (Geländekarten, Hintergrundkarten, Orthofotografien, Immobiliendaten)",
+            "Schnelle, hochautomatisierte Tarifberechnung",
+            "Umfassende, anpassbare Berichterstattung"
+          ]
+        }
+      ],
+      "benefits_heading": "Vorteile des Forlog ERP-Systems",
+      "benefits_intro": "Der Umstieg auf das Forlog ERP-System kann erhebliche Vorteile für Ihr Unternehmen bringen.",
+      "benefits": [
+        {
+          "heading": "Verbesserte Effizienz",
+          "body": "Forlog integriert alle Ihre Holzbeschaffungsoperationen in ein nahtloses System. Die Informationsweitergabe zwischen verschiedenen Parteien – Auftragnehmern und Kunden – wird schneller und die Fehlerquote sinkt. Routineaufgaben wie Auftragnehmerzahlungsberechnungen können automatisiert werden."
+        },
+        {
+          "heading": "Echtzeit-Datenverfügbarkeit",
+          "body": "Forlog bietet eine Echtzeit-Übersicht Ihrer Geschäftstätigkeit. Sie können Lagerbestände, Liefermengen, Einkaufsmengen und Einschlagsfortschritt von einem zentralen Ort aus überwachen – für schnellere und genauere Entscheidungsfindung."
+        },
+        {
+          "heading": "Besserer Kundenservice",
+          "body": "Ein umfassender Überblick über Kundendaten und Vertragshistorie ermöglicht persönlicheren und schnelleren Service, was die Kundenzufriedenheit und -treue verbessert."
+        },
+        {
+          "heading": "Kosteneinsparungen",
+          "body": "Durch die Automatisierung von Geschäftsprozessen – Transport- und Einschlagsverwaltung, Auftragnehmerzahlungsberechnungen und Messkertifikate – reduziert Forlog Betriebskosten, unnötige Arbeit und Lagerkosten."
+        },
+        {
+          "heading": "Skalierbarkeit und Wachstumspotenzial",
+          "body": "Forlog wurde entwickelt, um mit dem Wachstum Ihres Unternehmens zu skalieren. Sie können nach Bedarf neue Funktionen, Benutzer und Prozesse hinzufügen, ohne sich um die Systemkapazität sorgen zu müssen."
+        },
+        {
+          "heading": "Regelkonformität und Risikomanagement",
+          "body": "Forlog hilft dabei, Vorschriften einzuhalten und Geschäftsrisiken durch standardisierte Verfahren zu reduzieren. Das System beinhaltet die Bereitschaft zur Pflege und Überwachung der PEFC-, FSC- und SBP-Zertifizierungssysteme."
+        }
+      ],
+      "benefits_outro": "Der Umstieg auf das Forlog ERP-System ist erschwinglicher als Sie denken – und zahlt sich vielfach aus.",
+      "forestry_callout": "Fragen Sie auch nach dem Waldpflegemodul und Waldressourcendaten",
+      "erp_heading": "Wie profitiert ein Forstunternehmen von einem ERP-System?",
+      "erp_intro": "Ein ERP-System integriert alle wichtigen Geschäftsprozesse wie Holzbeschaffung, Transport, Lagerung und Fakturierung. Für ein Forstunternehmen bedeutet dies:",
+      "erp_points": [
+        {
+          "label": "Bessere Sichtbarkeit und Nachverfolgung",
+          "body": "Alle Holz-, Vertrags- und Transportdaten in einem System."
+        },
+        {
+          "label": "Weniger manuelle Arbeit",
+          "body": "Automatisierte Prozesse reduzieren Fehler und sparen Zeit."
+        },
+        {
+          "label": "Datengestützte Entscheidungen",
+          "body": "Echtzeitdaten helfen dabei, strategische Entscheidungen zu treffen und Ressourcen zu optimieren."
+        }
+      ],
+      "efficiency_heading": "Wie verbessert ERP die Effizienz?",
+      "efficiency_intro": "Ein ERP-System hilft einem Forstunternehmen, auf allen Ebenen effizienter zu arbeiten:",
+      "efficiency_points": [
+        {
+          "label": "Prozessoptimierung",
+          "body": "Wiederkehrende Aufgaben können automatisiert und effektiv überwacht werden."
+        },
+        {
+          "label": "Ressourcenverwaltung",
+          "body": "Einschlag und Transport können präzise geplant werden."
+        },
+        {
+          "label": "Berichterstattung und Analytik",
+          "body": "Klare Berichte helfen dabei, Engpässe und Möglichkeiten zur Verbesserung der Produktivität zu identifizieren."
+        }
+      ],
+      "scale_heading": "Skalierbarkeit und Wachstum mit ERP",
+      "scale_intro": "Ein wachsendes Forstunternehmen braucht ein System, das mitwächst. Holzbeschaffungs-ERP ermöglicht:",
+      "scale_points": [
+        {
+          "label": "Skalierbarkeit",
+          "body": "Das System unterstützt Ihr Unternehmenswachstum ohne große zusätzliche Investitionen."
+        },
+        {
+          "label": "Hinzufügen neuer Funktionen",
+          "body": "Sie können Dienste einfach erweitern, neue Verträge oder Standorte hinzufügen."
+        },
+        {
+          "label": "Stärkung der Wettbewerbsfähigkeit",
+          "body": "Effizienterer Betrieb und besseres Datenmanagement stärken die Marktposition des Unternehmens."
+        }
+      ],
+      "scale_outro": "Kontaktieren Sie uns und fragen Sie nach einer Demo des Holzbeschaffungs-ERP und der Forlog-Produktfamilie."
+    },
+    "consulting_page": {
+      "subheading": "Man kann nicht – und muss auch nicht – alles selbst wissen",
+      "body": "Fornello bietet Beratungsleistungen insbesondere im Zusammenhang mit der Verwaltung der Holzherkunft, Logistik und Organisation der Holzbeschaffung. Zu unseren Leistungen gehören auch verschiedene Unternehmertarife und die damit verbundenen Berechnungssysteme."
     }
   },
   "contact": {
-    "heading": "Kontaktieren Sie uns",
-    "subheading": "Wir antworten innerhalb eines Werktages.",
+    "heading": "Kontakt",
+    "subheading": "Beschreiben Sie kurz Ihr Anliegen – unser Experte meldet sich so bald wie möglich bei Ihnen.",
     "form": {
-      "name": "Vollständiger Name", "email": "E-Mail-Adresse", "company": "Unternehmen", "message": "Nachricht",
-      "name_placeholder": "Ihr Name", "email_placeholder": "sie@unternehmen.de",
-      "company_placeholder": "Ihr Unternehmen", "message_placeholder": "Wie können wir helfen?",
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "company": "Unternehmen",
+      "message": "Nachricht",
+      "name_placeholder": "Ihr Name",
+      "email_placeholder": "sie@unternehmen.de",
+      "company_placeholder": "Ihr Unternehmen",
+      "message_placeholder": "Wie können wir helfen?",
       "submit": "Nachricht senden",
       "success": "Vielen Dank — wir melden uns in Kürze bei Ihnen.",
       "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an info@fornello.fi."
     },
-    "info": { "address_label": "Adresse", "phone_label": "Telefon", "email_label": "E-Mail" }
+    "info": {
+      "address_label": "Adresse",
+      "phone_label": "Telefon",
+      "email_label": "E-Mail"
+    }
   },
   "footer": {
-    "tagline": "Qualitätsrundholz aus der Ostseeregion.",
+    "tagline": "Die bessere Alternative für Erfolg im Holzhandel.",
     "nav_label": "Kontakt",
+    "links_label": "Seiten",
     "lang_label": "Sprache",
-    "copyright": "© {year} Fornello Oy. Alle Rechte vorbehalten."
+    "privacy": "Datenschutzerklärung",
+    "copyright": "© {year} Fornello Oy"
   },
   "common": {
-    "learn_more": "Mehr erfahren", "contact_us": "Kontakt aufnehmen", "back_to_top": "Nach oben",
-    "loading": "Wird gesendet…", "required_field": "Dieses Feld ist erforderlich."
+    "learn_more": "Mehr erfahren",
+    "contact_us": "Kontakt aufnehmen",
+    "back_to_top": "Nach oben",
+    "loading": "Wird gesendet…",
+    "required_field": "Dieses Feld ist erforderlich.",
+    "back_to_services": "Zurück zu den Leistungen"
+  },
+  "ymparisto": {
+    "heading": "Umwelt",
+    "section_heading": "Verantwortungsvolle Holzbeschaffung",
+    "body1": "Die Einhaltung nationaler Gesetze ist das Mindestmaß, das jeder Holzlieferant erfüllen muss. Die EU verabschiedete im Oktober 2010 die Holzverordnung (EUTR 995/2010), um zu verhindern, dass illegales Holz und Holzprodukte in die EU gelangen. Auch in Finnland müssen nationale Gesetze selbstverständlich eingehalten werden, und dies muss für jede einzelne Lieferung nachgewiesen werden können.",
+    "body2": "Über die Erfüllung des Mindestmaßes durch Gesetzeskonformität hinaus trägt Fornello Oy umfassendere Verantwortung für die Umwelt. Das Unternehmen unterstützt nachhaltige Entwicklung, sodass alles Holz auf biologisch, ökologisch und sozial nachhaltige Weise beschafft wird. Fornello Oy verfügt über PEFC- und FSC®-Zertifikate für die Kontrolle der Lieferkette. Das Management des Unternehmens hat sich verpflichtet, gemäß den Anforderungen beider Systeme zu handeln, und überprüft die Tätigkeit systematisch und regelmäßig. Kiwa Inspecta fungiert als unabhängige dritte Partei und prüft das System.",
+    "pefc_info": "Weitere Informationen zur PEFC-Zertifizierung finden Sie unter dem folgenden Link. Dort können Sie auch die Gültigkeit des Zertifikats prüfen.",
+    "fsc_info": "Weitere Informationen zum FSC-System sowie zur Gültigkeit des Zertifikats finden Sie unter:",
+    "sbp_info": "Informationen zur SBP-Zertifizierung:"
+  },
+  "eudr": {
+    "meta_title": "EUDR — Fornello Oy",
+    "meta_description": "Die EU-Entwaldungsverordnung (EUDR) stellt strenge Anforderungen an Holzbeschaffungsunternehmen hinsichtlich der Rückverfolgbarkeit und des Datenmanagements für Holz.",
+    "badge": "EU-Gesetzgebung",
+    "h1": "EU-Entwaldungsverordnung (EUDR)",
+    "hero_intro": "Die EUDR stellt strenge Anforderungen an Holzbeschaffungsunternehmen hinsichtlich der Rückverfolgbarkeit und des Datenmanagements für Holz. Die Verordnung zielt darauf ab, Entwaldung und Waldverschlechterung weltweit zu verhindern, indem Unternehmen verpflichtet werden, Informationssysteme zur genauen Überwachung der Lieferkette einzuführen.",
+    "what_h2": "Was ist EUDR?",
+    "what_body": "ist eine Gesetzgebung, die darauf ausgelegt ist, \"Entwaldung und Waldverschlechterung im Zusammenhang mit Produkten, die in den EU-Markt gelangen, zu verhindern\". Sie betrifft direkt die Holzbeschaffung und den Holzhandel in der gesamten Lieferkette. Für Betreiber und Händler gelten unterschiedliche Anforderungen, wobei größere Unternehmen strengeren Verpflichtungen unterliegen.",
+    "aspects_h2": "Sechs wesentliche Aspekte",
+    "aspects": {
+      "1": {
+        "title": "Anforderung zur Legalitätsverifizierung",
+        "body": "Alle in die EU eingeführten Holzprodukte müssen Legalitätsanforderungen erfüllen. Das Ursprungsland muss nachweisbar sein und das Holz muss aus Gebieten stammen, in denen weder illegaler Einschlag noch Entwaldung stattfindet."
+      },
+      "2": {
+        "title": "Sorgfaltspflichten",
+        "body": "Unternehmen müssen angemessene Sorgfalt walten lassen, um sicherzustellen, dass Holz nicht aus Entwaldungsgebieten oder illegal eingeschlagenen Wäldern stammt."
+      },
+      "3": {
+        "title": "Entwaldungsprävention",
+        "body": "Die Verordnung verbietet die Einfuhr und Ausfuhr von mit Entwaldung verbundenen Produkten, insbesondere aus Ländern, in denen großflächige Entwaldung stattfindet."
+      },
+      "4": {
+        "title": "Neue Berichts- und Überwachungspraktiken",
+        "body": "Importeure und Exporteure müssen die Herkunft der Produkte genau melden und die Legalität mit zunehmend umfassenden Dokumentationsanforderungen nachweisen."
+      },
+      "5": {
+        "title": "Zertifizierungs- und Prüfmechanismen",
+        "body": "Die Verordnung unterstützt FSC- und PEFC-Zertifizierungen, aber Unternehmen müssen die Einhaltung der Lieferkettenanforderungen hinsichtlich der Entwaldungsbekämpfung nachweisen. Verstöße werden mit Sanktionen geahndet."
+      },
+      "6": {
+        "title": "Übergangszeitplan und Auswirkungen auf Unternehmen",
+        "body": "Die EUDR wird schrittweise eingeführt, um Unternehmen Zeit zur Anpassung an neue Beschaffungs- und Handelsanforderungen zu geben. Das ursprüngliche Inkrafttreten am 1. Januar 2025 wurde verschoben."
+      }
+    },
+    "sysreqs_h2": "IT-Systemanforderungen",
+    "sysreqs_intro": "Unternehmen müssen Informationssysteme für die Verwaltung von Herkunftsdaten, TRACES-Integration und Berichterstattung einführen — andernfalls wird der manuelle Arbeitsaufwand unüberschaubar.",
+    "sysreqs": {
+      "1": {
+        "title": "Erfassung und Speicherung von Herkunftsdaten",
+        "body": "Unternehmen müssen detaillierte Holzherkunftsdaten — einschließlich Einschlagsort und Lieferanteninformationen — mindestens fünf Jahre lang erfassen und aufbewahren."
+      },
+      "2": {
+        "title": "Vollständige Rückverfolgbarkeit der Lieferkette",
+        "body": "Systeme müssen Holzprodukte vom Wald bis zum fertigen Produkt verfolgen und sicherstellen, dass keine Quellen mit Entwaldung in Verbindung stehen."
+      },
+      "3": {
+        "title": "Verwaltung von Sorgfaltserklärungen",
+        "body": "Unternehmen müssen Konformitätserklärungen erstellen, verwalten und archivieren, die die Erfüllung regulatorischer Anforderungen belegen."
+      },
+      "4": {
+        "title": "TRACES-Systemintegration",
+        "body": "Die Verordnung verpflichtet Unternehmen, dem EU-TRACES-System zu melden, wann immer Holz in Lieferketten bewegt wird. Dies erfordert eine Systemintegration, die einen reibungslosen Datentransfer ermöglicht."
+      },
+      "5": {
+        "title": "Echtzeit-Datenverwaltung und Berichterstattung",
+        "body": "Systeme müssen sofortigen Zugriff auf Herkunftsdaten bieten und schnelle, genaue Behördenberichte sowie interne Entscheidungsfindung ermöglichen."
+      }
+    },
+    "cta_badge": "Forlog unterstützt die EUDR-Compliance",
+    "cta_body": "Die Forlog-Softwarefamilie umfasst Funktionen für die Verwaltung von Herkunftsdaten, TRACES-Integration und Berichterstattung.",
+    "btn_software": "Forlog-Software",
+    "btn_contact": "Kontakt aufnehmen"
   }
 }

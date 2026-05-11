@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import { routing } from './navigation'
 
-const BASE_URL = 'https://fornello.fi'
+const BASE_URL =
+  process.env.NEXT_PUBLIC_BASE_URL ??
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://fornello.fi')
 
 export function buildAlternates(path: string): Metadata['alternates'] {
   const languages: Record<string, string> = {}

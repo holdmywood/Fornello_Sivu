@@ -9,13 +9,21 @@
   --color-forest-700: #1E3D26;
   --color-forest-800: #132918;
   --color-moss-400: #5C9468;
+  --color-moss-300: #8AB492;
   --color-moss-200: #B8D4BC;
+  --color-moss-100: #DFF0E2;
   --color-cream-50: #F7F3ED;
   --color-cream-100: #EDE8DF;
   --color-bark-900: #2C2418;
+  --color-bark-800: #3F3224;
+  --color-bark-700: #4D4130;
   --color-bark-600: #5C503E;
+  --color-bark-500: #7A6A54;
   --color-amber-500: #C17F3A;
+  --color-amber-400: #D4913E;
+  --color-amber-200: #EDD1A5;
   --color-amber-100: #F5E4CC;
+  --color-forest-900: #0C1F10;
 }
 
 @theme inline {
@@ -63,6 +71,7 @@
 }
 
 :root {
+  --font-sans: var(--font-roboto);
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);

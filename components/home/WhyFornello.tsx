@@ -1,15 +1,58 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { motion, useReducedMotion } from 'framer-motion'
 import { useTranslations } from 'next-intl'
-import { Globe, Leaf, ShieldCheck, Truck } from 'lucide-react'
+import { Globe, Leaf, ShieldCheck, Truck, type LucideIcon } from 'lucide-react'
 
-const pillars = [
+type PillarKey = 'supply' | 'sustainability' | 'quality' | 'logistics'
+
+const pillars: { key: PillarKey; Icon: LucideIcon }[] = [
   { key: 'supply', Icon: Globe },
   { key: 'sustainability', Icon: Leaf },
   { key: 'quality', Icon: ShieldCheck },
   { key: 'logistics', Icon: Truck },
-] as const
+]
+
+function AnimatedFeatureIcon({
+  iconKey,
+  Icon,
+  delay,
+}: {
+  iconKey: PillarKey
+  Icon: LucideIcon
+  delay: number
+}) {
+  const shouldReduce = useReducedMotion()
+  const cls = 'h-6 w-6 text-forest-700'
+
+  if (shouldReduce) return <Icon className={cls} />
+
+  const enterAnimation = {
+    supply:         { rotate: [0, 22, -8, 0],     transition: { duration: 2.4, ease: 'easeInOut', delay } },
+    sustainability: { rotate: [0, -10, 7, -4, 0], transition: { duration: 2.8, ease: 'easeInOut', delay } },
+    quality:        { scale:  [1, 1.18, 1],        transition: { duration: 1.6, ease: 'easeInOut', delay } },
+    logistics:      { x: 0,                        transition: { duration: 0.85, ease: 'easeOut',  delay } },
+  } as const
+
+  const hoverAnimation = {
+    supply:         { rotate: [0, 28, 0],          transition: { duration: 1.4, ease: 'easeInOut' } },
+    sustainability: { rotate: [0, -12, 9, -5, 0],  transition: { duration: 1.8, ease: 'easeInOut' } },
+    quality:        { scale:  [1, 1.22, 1],         transition: { duration: 0.9, ease: 'easeInOut' } },
+    logistics:      { x: [-5, 0],                  transition: { duration: 0.5, ease: 'easeOut'  } },
+  } as const
+
+  return (
+    <motion.div
+      className="flex items-center justify-center"
+      initial={iconKey === 'logistics' ? { x: -20 } : undefined}
+      whileInView={enterAnimation[iconKey]}
+      whileHover={hoverAnimation[iconKey]}
+      viewport={{ once: true }}
+    >
+      <Icon className={cls} />
+    </motion.div>
+  )
+}
 
 export function WhyFornello() {
   const t = useTranslations('home.why')
@@ -37,8 +80,8 @@ export function WhyFornello() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="flex gap-6 p-8 rounded-xl bg-white border border-moss-200/50 shadow-sm"
             >
-              <div className="shrink-0 w-12 h-12 rounded-full bg-moss-200 flex items-center justify-center">
-                <Icon className="h-6 w-6 text-forest-700" />
+              <div className="shrink-0 w-12 h-12 rounded-full bg-moss-200 flex items-center justify-center overflow-hidden">
+                <AnimatedFeatureIcon iconKey={key} Icon={Icon} delay={0.6 + i * 0.1} />
               </div>
               <div>
                 <h3 className="font-semibold text-bark-900 text-lg mb-2">

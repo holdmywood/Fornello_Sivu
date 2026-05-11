@@ -9,7 +9,7 @@ export function CertificationsBand() {
   const t = useTranslations('home.certifications')
 
   return (
-    <section className="bg-forest-700 py-16 px-6">
+    <section className="relative bg-gradient-to-br from-forest-800 via-forest-700 to-forest-600 py-16 px-6 overflow-hidden">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

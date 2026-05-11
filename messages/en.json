@@ -1,36 +1,57 @@
 {
   "meta": {
     "home": {
-      "title": "Fornello Oy — Quality Roundwood from the Baltic Sea Region",
-      "description": "Finnish timber trade specialist supplying FSC® and PEFC certified sawlogs, pulpwood, and biomass across the Baltic Sea region."
+      "title": "Fornello Oy — Scandinavian Timber Trade",
+      "description": "Fornello Oy is a Finnish company specialising in roundwood trading and agency, software for wood purchasing, and consulting."
     },
     "services": {
-      "title": "Our Services — Fornello Oy",
+      "title": "Services — Fornello Oy",
       "description": "Roundwood trading and agency, wood purchasing software, and consulting services from Fornello Oy."
     },
     "contact": {
       "title": "Contact — Fornello Oy",
       "description": "Get in touch with Fornello Oy. Latoluomantie 30, 29100 Luvia, Finland. +358 500 110 220."
+    },
+    "services_roundwood": {
+      "title": "Roundwood trading & agency — Fornello Oy",
+      "description": "Fornello Oy sources and brokers timber through delivery trade. Partners include forestry associations, sawmills, and wood procurement companies. PEFC and FSC certified."
+    },
+    "services_software": {
+      "title": "Software business — Fornello Oy",
+      "description": "Forlog product family: Haukka, Pöllö, and Kyyhky – browser-based software for wood procurement and bioenergy business."
+    },
+    "services_consulting": {
+      "title": "Consulting — Fornello Oy",
+      "description": "Fornello offers consulting on timber origin management, logistics, and wood procurement organisation."
+    },
+    "ymparisto": {
+      "title": "Environment — Fornello Oy",
+      "description": "Fornello Oy takes responsibility for the environment. PEFC- and FSC-certified wood procurement in a biologically, ecologically and socially sustainable way."
+    },
+    "eudr": {
+      "title": "EUDR — Fornello Oy",
+      "description": "The EU Deforestation Regulation (EUDR) imposes strict requirements on wood procurement companies regarding timber traceability and data management."
     }
   },
   "nav": {
     "home": "Home",
     "services": "Services",
     "contact": "Contact",
-    "logo_alt": "Fornello Oy"
+    "logo_alt": "Fornello Oy",
+    "ymparisto": "Environment"
   },
   "home": {
     "hero": {
-      "headline": "Reliable Timber. Responsibly Sourced.",
-      "subheadline": "Fornello supplies quality roundwood from the Baltic Sea region — sawlogs, pulpwood, and energy wood for industrial and energy production.",
-      "cta_primary": "Get in touch",
+      "headline": "Good deals for everyone!",
+      "subheadline": "Fornello Oy is a Finnish company whose main business areas are roundwood trading and agency, software business focused on wood procurement, and consulting in the field.",
+      "cta_primary": "Contact us",
       "cta_secondary": "Our services"
     },
     "intro": {
-      "body": "Fornello Oy is a Finnish timber trade specialist operating across the Baltic Sea region. We connect industrial buyers with abundant, FSC®- and PEFC-certified forest resources — backed by a reliable logistics network and decades of local expertise."
+      "body": "Are you looking for a reliable partner for deliveries of sawlogs, pulpwood, energy chips, or energy wood? You are in the right place."
     },
     "supply": {
-      "heading": "What we supply",
+      "heading": "Welcome to the sources of sawlogs, pulpwood, energy chips, and energy wood!",
       "sawlogs": {
         "label": "Sawlogs",
         "desc": "High-grade logs for sawmill and structural timber production."
@@ -49,90 +70,241 @@
       }
     },
     "why": {
-      "heading": "Why Fornello",
+      "heading": "Why choose Fornello Oy as your supplier?",
       "supply": {
-        "title": "Abundant supply",
-        "body": "An extensive Baltic Sea cooperation network gives you access to large, consistent volumes — even during tight market conditions."
+        "title": "Adequate resources",
+        "body": "The Baltic Sea region offers plenty of opportunities for the production of all kinds of forest-based products without jeopardizing the sustainability or biodiversity of the forests. Through its extensive network of cooperation, Fornello Oy sources all materials from the best and most cost-effective sources at any given time – to your advantage as well!"
       },
       "sustainability": {
-        "title": "Responsible sourcing",
-        "body": "Every shipment meets FSC®, PEFC, REDIII, and EUDR requirements. Sustainable forest management is how we operate, not a checkbox."
+        "title": "Sustainable forest management",
+        "body": "Forestry is practiced responsibly and sustainably. Forests are managed in a way that preserves their ecological diversity, and there is a balance between forestry and nature. Compliance with laws and regulations is a given. In addition, Fornello Oy has a chain of custody certificate in both the FSC® and PEFC certification systems. Naturally, REDIII and EUDR rules are also followed."
       },
       "quality": {
-        "title": "Quality assurance",
-        "body": "Rigorous grading and measurement at source. You receive what was agreed, every time."
+        "title": "High quality",
+        "body": "We use the best practices and technologies to ensure that our products meet the agreed upon specifications and comply with quality and purity standards."
       },
       "logistics": {
-        "title": "Reliable logistics",
-        "body": "Local partnerships and efficient transport networks keep your supply chain running on schedule."
+        "title": "Reliable supply chain",
+        "body": "By collaborating with local partners, we can ensure a continuous and reliable supply chain. Our efficient logistics networks enable precise and secure deliveries to your destinations."
       }
     },
     "services_overview": {
-      "heading": "What we do",
+      "heading": "Services",
       "roundwood": {
         "title": "Roundwood trading & agency",
-        "body": "Sourcing, brokering, and logistics for sawlogs, pulpwood, and biomass across the Baltic Sea region.",
+        "body": "Sourcing, brokering, and logistics for sawlogs, pulpwood, energy chips, and energy wood across the Baltic Sea region.",
         "cta": "Learn more"
       },
       "software": {
-        "title": "Wood purchasing software",
-        "body": "Purpose-built tools that streamline timber procurement, measurement, and reporting.",
+        "title": "Software business",
+        "body": "Software for wood purchasing and procurement management.",
         "cta": "Learn more"
       },
       "consulting": {
         "title": "Consulting",
-        "body": "Expert guidance on procurement strategy, compliance, and market positioning.",
+        "body": "Consulting in wood purchasing.",
         "cta": "Learn more"
       }
     },
     "certifications": {
-      "heading": "Compliance & certification",
-      "note": "All sourcing meets FSC®, PEFC, REDIII, and EUDR requirements."
+      "heading": "Certifications & compliance",
+      "note": "Fornello Oy holds chain of custody certificates in both the FSC® and PEFC certification systems. REDIII and EUDR rules are also followed."
     },
     "cta": {
-      "heading": "Looking for a reliable timber partner?",
-      "body": "We supply quality roundwood on time, every time — from a network you can trust.",
+      "heading": "Need a roundwood supplier?",
+      "body": "Get in touch and we'll discuss your requirements.",
       "button": "Contact us"
+    },
+    "gallery": {
+      "heading": "Explore our operations through photos",
+      "button": "View photos"
     }
   },
   "services": {
-    "heading": "Our services",
-    "subheading": "Three areas of expertise, one trusted partner.",
+    "heading": "Services",
+    "subheading": "Fornello Oy is a Finnish company whose main business areas are roundwood trading and agency, software business focused on wood procurement, and consulting in the field.",
     "roundwood": {
       "title": "Roundwood trading & agency",
-      "body": "We source and broker sawlogs, pulpwood, energy chips, and energy wood across the Baltic Sea region. Our local partner network ensures consistent supply volumes and competitive pricing.",
+      "body": "Fornello Oy sources and brokers sawlogs, pulpwood, energy chips, and energy wood across the Baltic Sea region. The company imports and exports high-quality Scandinavian wood products using FOB or CIF pricing.",
       "features": [
-        "Sawlogs for sawmill production",
-        "Pulpwood for pulp and paper",
-        "Energy chips and whole-tree biomass",
-        "Baltic Sea–wide sourcing network",
-        "FSC® and PEFC certified supply"
+        "Sawlogs",
+        "Pulpwood",
+        "Energy chips",
+        "Energy wood",
+        "FSC® and PEFC certified timber"
       ]
     },
     "software": {
-      "title": "Wood purchasing software",
-      "body": "Our software is built for the specific demands of timber procurement. Digitise measurement, automate reporting, and gain full visibility over your purchasing operations.",
+      "title": "Software business",
+      "body": "Software for wood purchasing and procurement management.",
       "features": [
-        "Timber measurement and grading tools",
-        "Procurement workflow automation",
-        "Compliance and reporting dashboards",
-        "Tailored to Nordic forestry standards"
+        "Timber procurement tools",
+        "Measurement and reporting",
+        "Compliance support"
       ]
     },
     "consulting": {
       "title": "Consulting",
-      "body": "Whether you are entering new markets, tightening compliance processes, or optimising your supply chain, our consultants bring deep industry knowledge to your challenges.",
+      "body": "Consulting in wood purchasing.",
       "features": [
         "Procurement strategy",
-        "REDIII and EUDR compliance advisory",
-        "Market analysis and supplier evaluation",
-        "Supply chain optimisation"
+        "REDIII and EUDR compliance",
+        "Market advice"
       ]
+    },
+    "roundwood_page": {
+      "tagline": "Always sell at the best prices and terms – or buy affordable imported timber",
+      "section1": {
+        "heading": "Finnish timber to the world",
+        "body1": "Fornello Oy procures timber throughout Finland, primarily through delivery trade and usually to only a few delivery locations simultaneously. The aim is to source timber from areas where it otherwise sells less readily. Procurement partners and supplying customers include forestry management associations, sawmills, wood procurement companies (e.g. those in the bioenergy business), and occasionally private forest owners. Timber procured is sold either to domestic industry or to export markets, leveraging an extensive contact network and experience in both domestic trade and exports. Fornello Oy holds PEFC and FSC® chain of custody certificates.",
+        "body2": "Fornello Oy purchases pulpwood and so-called second-grade logs (a relatively uncommon grade in Finland), and occasionally small-dimension logs and standard-grade timber as well. Inventory turns over quickly — timber is not left to deteriorate at the roadside, and forest payments are settled promptly. The most common transaction type is delivery trade, although some roadside trade (direct procurement) also takes place. Operations extend from southern Finland all the way to Lapland. Finnish timber is an excellent product, and every cubic metre procured brings much-needed employment opportunities and additional income where they are needed most."
+      },
+      "section2": {
+        "heading": "Growing timber trade boosts the economy",
+        "body1": "Lively timber trade takes place around the Baltic Sea region, yet Finland rarely features as a seller. Finland nevertheless has exceptionally large underutilised forest reserves among the Baltic states: roughly 110 million cubic metres grow annually, while only about 68 million are utilised for industrial and energy use — meaning Finland's timber capital grows by 30 million cubic metres every year. That is how much felling could be increased without even reducing our forest reserves. Pine pulpwood in particular is in abundant surplus. Finnish timber is never cheap as an export product, but buyers who value reliable delivery and a predictably stable price level can always be found.",
+        "body2": "Increasing pulpwood harvesting has enormous positive effects. A mere 100,000 m³ increase provides employment for 3–4 thinning machine chains (12–16 operators), 2–3 timber trucks (4–6 drivers), and 2–3 office staff — not to mention the growth in stumpage revenue. Timber delivered to domestic industry may also substitute imports, while exports represent a direct net addition. The latest news of new investments in the pulp industry is extremely encouraging!"
+      },
+      "section3": {
+        "heading": "Imports when needed",
+        "body": "Even though Finland has sufficient timber in principle, there are situations where importing makes sense. The use of high-quality Finnish pulpwood for energy production deserves a critical look. Once all timber unsuitable for industry or otherwise low in value has already been directed to energy use, any additional demand is sometimes better met through imports, provided suitable material is available at a reasonable price. Through Fornello Oy's extensive international contact network, the most competitive import channel available at any given time can always be found. Feel free to ask for more!"
+      }
+    },
+    "software_page": {
+      "tagline": "Take control of the whole, and actually make money from wood procurement.",
+      "intro": "The Forlog product family offers a modern ERP system with advanced features – at very affordable cost. The system covers all stages of wood procurement from quotation to end user. The software is modular, and modules for bioenergy operations and calculations are also available. Ask about a trial run! The software supports EUDR-compliant origin data collection, management, storage and reporting. In 2025 the software will be integrated with the TRACES system.",
+      "eudr_badge": "EUDR is coming – are you ready?",
+      "products_heading": "Forlog product family",
+      "products": [
+        {
+          "name": "Haukka",
+          "tagline": "Browser-based system covering all wood procurement functions – works even on a smartphone",
+          "features": [
+            "Margin calculation already at the quotation stage",
+            "Versatile inventory functions",
+            "Automatic road transport distance calculation and routing",
+            "Latest map data (terrain maps, background maps, orthophotos, property data)",
+            "Fast, highly automated tariff calculations (harvesting and long-distance transport)",
+            "Always real-time inventory data with maps (also for drivers)",
+            "Harvester work instructions/maps and production data import",
+            "No need to send work orders and instructions – visible immediately when saved",
+            "Integrated with Forest Hub – papiNet standard ensures data consistency throughout the supply chain",
+            "Organisation-level option (e.g. for multiple procurement areas)",
+            "Origin management certificates supported: PEFC, FSC and SBP",
+            "Comprehensive, customisable reporting"
+          ]
+        },
+        {
+          "name": "Pöllö",
+          "tagline": "A system tailored for bioenergy business",
+          "features": [
+            "Includes all Haukka features plus bioenergy work types",
+            "Advanced calculations: converts and compares different units (m³ / loose-m³ / MWh)",
+            "Margin calculation at quotation stage – even when buying in cubic metres and selling in MWh",
+            "Drying time calculation and moisture content tracking and conversion for inventories",
+            "Covers origin management (required e.g. for electricity production subsidies)",
+            "Comprehensive, customisable reporting"
+          ]
+        },
+        {
+          "name": "Kyyhky",
+          "tagline": "For inventory and transport management",
+          "features": [
+            "Real-time inventory management",
+            "Automatic road transport distance calculation and routing",
+            "Latest map data (terrain maps, background maps, orthophotos, property data)",
+            "Fast, highly automated tariff calculation",
+            "Comprehensive, customisable reporting"
+          ]
+        }
+      ],
+      "benefits_heading": "Benefits of the Forlog ERP system",
+      "benefits_intro": "Switching to the Forlog ERP system can bring significant advantages to your business.",
+      "benefits": [
+        {
+          "heading": "Improved efficiency",
+          "body": "Forlog integrates all your wood procurement operations into one seamless system. Sharing information between different parties – contractors and customers – becomes faster and errors decrease. Routine tasks such as contractor payment calculations can be automated."
+        },
+        {
+          "heading": "Real-time data availability",
+          "body": "Forlog provides a real-time view of your business operations. You can monitor inventory status, delivery volumes, purchase volumes and harvesting progress from a single centralised location – enabling faster and more accurate decision-making."
+        },
+        {
+          "heading": "Better customer service",
+          "body": "A comprehensive view of customer data and contract history enables more personalised and faster service, improving customer satisfaction and loyalty."
+        },
+        {
+          "heading": "Cost savings",
+          "body": "By automating business processes – transport and harvesting management, contractor payment calculations and measurement certificates – Forlog reduces operating costs, unnecessary work and inventory costs."
+        },
+        {
+          "heading": "Scalability and growth potential",
+          "body": "Forlog is designed to scale with your business growth. You can add new functions, users and processes as needed without worrying about the system's capacity."
+        },
+        {
+          "heading": "Regulatory compliance and risk management",
+          "body": "Forlog helps comply with regulations and reduces business risks through standardised procedures. The system includes readiness to maintain and monitor PEFC, FSC and SBP certification systems."
+        }
+      ],
+      "benefits_outro": "Switching to the Forlog ERP system is more affordable than you think – and pays back many times over.",
+      "forestry_callout": "Also ask about the forest management module and forest resource data",
+      "erp_heading": "How does a forestry company benefit from an ERP system?",
+      "erp_intro": "An ERP system integrates all key business processes such as wood procurement, transport, storage and invoicing. For a forestry company this means:",
+      "erp_points": [
+        {
+          "label": "Better visibility and tracking",
+          "body": "All timber, contract and transport data in one system."
+        },
+        {
+          "label": "Less manual work",
+          "body": "Automated processes reduce errors and save time."
+        },
+        {
+          "label": "Data-driven decisions",
+          "body": "Real-time data helps make strategic decisions and optimise resources."
+        }
+      ],
+      "efficiency_heading": "How does ERP improve efficiency?",
+      "efficiency_intro": "An ERP system helps a forestry company operate more efficiently at every level:",
+      "efficiency_points": [
+        {
+          "label": "Process optimisation",
+          "body": "Repetitive tasks can be automated and monitored effectively."
+        },
+        {
+          "label": "Resource management",
+          "body": "Harvesting and transport can be scheduled precisely."
+        },
+        {
+          "label": "Reporting and analytics",
+          "body": "Clear reports help identify bottlenecks and opportunities to improve productivity."
+        }
+      ],
+      "scale_heading": "Scalability and growth with ERP",
+      "scale_intro": "A growing forestry company needs a system that grows with it. Wood procurement ERP enables:",
+      "scale_points": [
+        {
+          "label": "Scalability",
+          "body": "The system supports your business growth without major additional investments."
+        },
+        {
+          "label": "Adding new functions",
+          "body": "You can easily expand services, add new contracts or locations."
+        },
+        {
+          "label": "Strengthening competitiveness",
+          "body": "More efficient operations and better data management strengthen the company's market position."
+        }
+      ],
+      "scale_outro": "Contact us and ask for a demo of the wood procurement ERP and Forlog product family."
+    },
+    "consulting_page": {
+      "subheading": "You can't – and don't need to – know everything yourself",
+      "body": "Fornello offers consulting services particularly related to timber origin management, logistics, and the organisation of wood procurement. Our services also include various contracting rates and related calculation systems."
     }
   },
   "contact": {
-    "heading": "Get in touch",
-    "subheading": "We respond within one business day.",
+    "heading": "Contact",
+    "subheading": "Tell us briefly what your enquiry is about and our specialist will get back to you as soon as possible.",
     "form": {
       "name": "Full name",
       "email": "Email address",
@@ -153,16 +325,92 @@
     }
   },
   "footer": {
-    "tagline": "Quality roundwood from the Baltic Sea region.",
+    "tagline": "The better alternative for success in timber trade.",
     "nav_label": "Contact",
+    "links_label": "Pages",
     "lang_label": "Language",
-    "copyright": "© {year} Fornello Oy. All rights reserved."
+    "privacy": "Privacy Policy",
+    "copyright": "© {year} Fornello Oy"
   },
   "common": {
     "learn_more": "Learn more",
     "contact_us": "Contact us",
     "back_to_top": "Back to top",
     "loading": "Sending…",
-    "required_field": "This field is required."
+    "required_field": "This field is required.",
+    "back_to_services": "Back to services"
+  },
+  "ymparisto": {
+    "heading": "Environment",
+    "section_heading": "Responsible Wood Procurement",
+    "body1": "Complying with national laws is the minimum standard that every wood supplier must meet. In October 2010, the EU introduced the Timber Regulation (EUTR 995/2010) to prevent illegal wood and wood products from entering and being used in the EU. National laws must of course also be observed in Finland, and this must be demonstrable for each individual shipment.",
+    "body2": "In addition to meeting this minimum standard by complying with the law, Fornello Oy takes broader responsibility for the environment. The company supports sustainable development, meaning that all wood is procured in a biologically, ecologically and socially sustainable manner. Fornello Oy holds PEFC and FSC® chain-of-custody certificates. The company's management is committed to operating in accordance with the requirements of both systems and reviews operations systematically and regularly. Kiwa Inspecta acts as an independent third party auditing the system.",
+    "pefc_info": "More information about PEFC certification can be found at the link below. You can also check the validity of the certificate there.",
+    "fsc_info": "More information about the FSC system and certificate validity can be found at:",
+    "sbp_info": "Information about SBP certification:"
+  },
+  "eudr": {
+    "meta_title": "EUDR — Fornello Oy",
+    "meta_description": "The EU Deforestation Regulation (EUDR) imposes strict requirements on wood procurement companies regarding timber traceability and data management.",
+    "badge": "EU Legislation",
+    "h1": "EU Deforestation Regulation (EUDR)",
+    "hero_intro": "EUDR imposes strict requirements on wood procurement companies regarding timber traceability and data management. The regulation aims to prevent deforestation and forest degradation worldwide by requiring companies to implement information systems for accurate supply chain monitoring.",
+    "what_h2": "What is EUDR?",
+    "what_body": "is legislation designed to \"prevent deforestation and forest degradation associated with products entering the EU market\". It directly affects wood procurement and timber trading throughout the supply chain. Different requirements apply to operators and traders, with stricter obligations for larger companies.",
+    "aspects_h2": "Six Key Aspects",
+    "aspects": {
+      "1": {
+        "title": "Legality Verification Requirement",
+        "body": "All wood products imported into the EU must meet legality requirements. The country of origin must be verifiable and the timber must originate from areas where no illegal logging or deforestation occurs."
+      },
+      "2": {
+        "title": "Due Diligence Obligations",
+        "body": "Companies must exercise appropriate due diligence to ensure that timber does not originate from deforestation areas or forests subject to illegal logging."
+      },
+      "3": {
+        "title": "Deforestation Prevention",
+        "body": "The regulation prohibits the import and export of products linked to deforestation, particularly from countries where large-scale deforestation occurs."
+      },
+      "4": {
+        "title": "New Reporting and Monitoring Practices",
+        "body": "Importers and exporters must accurately report product origins and verify legality with increasingly comprehensive documentation requirements."
+      },
+      "5": {
+        "title": "Certification and Inspection Mechanisms",
+        "body": "The regulation supports FSC and PEFC certifications, but companies must demonstrate supply chain compliance regarding deforestation prevention. Violations result in sanctions."
+      },
+      "6": {
+        "title": "Transition Timeline and Business Impact",
+        "body": "EUDR is being introduced in phases, giving companies time to adapt to new procurement and trading requirements. The original entry into force date of 1 January 2025 has been postponed."
+      }
+    },
+    "sysreqs_h2": "IT System Requirements",
+    "sysreqs_intro": "Companies must implement information systems for origin data management, TRACES integration, and reporting — otherwise the manual workload becomes unmanageable.",
+    "sysreqs": {
+      "1": {
+        "title": "Collection and Storage of Origin Data",
+        "body": "Companies must collect and retain detailed timber origin data — including harvest location and supplier information — for a minimum of five years."
+      },
+      "2": {
+        "title": "Full Chain of Custody Traceability",
+        "body": "Systems must track wood products from forest to finished product and ensure that no sources are linked to deforestation."
+      },
+      "3": {
+        "title": "Due Diligence Statement Management",
+        "body": "Companies must prepare, manage, and archive compliance declarations demonstrating that regulatory requirements are met."
+      },
+      "4": {
+        "title": "TRACES System Integration",
+        "body": "The regulation requires companies to report to the EU TRACES system whenever timber moves through supply chains. This requires system integration enabling smooth data transfer."
+      },
+      "5": {
+        "title": "Real-time Data Management and Reporting",
+        "body": "Systems must provide immediate access to origin data and enable fast, accurate regulatory reporting and internal decision-making."
+      }
+    },
+    "cta_badge": "Forlog supports EUDR compliance",
+    "cta_body": "The Forlog software family includes capabilities for origin data management, TRACES integration, and reporting.",
+    "btn_software": "Forlog software",
+    "btn_contact": "Contact us"
   }
 }

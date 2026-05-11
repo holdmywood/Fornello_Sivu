@@ -82,11 +82,79 @@ All color tokens are defined in `app/globals.css` under `@theme`. Edit there to 
 --color-bark-900:   #2C2418;   /* body text */
 ```
 
-## Deploying to Vercel
+## Client Preview Deployment
+
+**Platform: Vercel** (free tier is sufficient for staging)
+
+### Pre-deployment checklist
+
+- [ ] All changed files are committed, including `public/images/` and any new pages
+- [ ] `middleware.ts` exists at the project root (handles locale routing for `/fi`, `/sv`, `/en`, `/de`)
+- [ ] No `.env.local` file is committed (it is git-ignored and should stay that way)
+- [ ] Run `npm run build` locally to confirm there are no TypeScript or build errors
+
+### Deployment steps
+
+1. Push the repository to GitHub (create a new private repo if needed):
+   ```bash
+   git add .
+   git commit -m "staging: prepare for client preview"
+   git remote add origin https://github.com/your-org/fornello-website.git
+   git push -u origin main
+   ```
+
+2. Go to [vercel.com](https://vercel.com), sign in, and click **Add New → Project**.
+   Import the GitHub repository. Accept all defaults — no framework override needed.
+
+3. Before clicking **Deploy**, open **Environment Variables** and add:
+   | Name | Value | Environment |
+   |---|---|---|
+   | *(none required for the preview)* | | |
+
+   The contact form is currently a stub (submissions are logged but not emailed). If you want form submissions to arrive as emails during the preview, add `RESEND_API_KEY` with a Resend test key (see *Wiring up contact form email* above).
+
+   Do **not** set `NEXT_PUBLIC_BASE_URL` for the preview — leave it unset so Vercel uses its own deployment URL automatically.
+
+4. Click **Deploy**. Vercel will build and assign a URL such as `https://fornello-website-abc123.vercel.app`.
+
+5. Share that URL with the client. It is publicly accessible — no login required.
+
+### Build command
+
+Vercel detects Next.js automatically. The defaults are correct:
+- **Build command**: `npm run build`
+- **Output directory**: `.next`
+- **Install command**: `npm install`
+
+### Environment variable summary for all environments
+
+| Variable | Preview | Production |
+|---|---|---|
+| `NEXT_PUBLIC_BASE_URL` | *(unset — auto-detected)* | `https://fornello.fi` |
+| `RESEND_API_KEY` | Resend test key (optional) | Live Resend key |
+
+### Post-deployment testing checklist
+
+- [ ] Opening the root URL (`/`) redirects to `/fi`
+- [ ] Language switcher cycles through fi → sv → en → de and back, URL prefix changes
+- [ ] All pages load without 404: `/fi`, `/fi/services`, `/fi/services/roundwood`, `/fi/services/software`, `/fi/services/consulting`, `/fi/contact`, `/fi/eudr`, `/fi/ymparisto`, `/fi/tietosuojaseloste`
+- [ ] Hero image and all gallery/section images load
+- [ ] Scroll animations play (WhyFornello icons, hero text, section cards)
+- [ ] Contact form: fill all fields, submit — shows green success message (form is stubbed; no email is sent unless `RESEND_API_KEY` is set)
+- [ ] Contact form: submit with empty fields — shows inline validation errors
+- [ ] `/sitemap.xml` and `/robots.txt` are accessible and the robots.txt says `Disallow: /` (correct — blocks search engines on staging)
+- [ ] Mobile layout: test at 375 px width (navigation, hero, cards, footer)
+
+### Moving to production
+
+When ready to go live on `fornello.fi`:
+1. Add a **Production** environment variable `NEXT_PUBLIC_BASE_URL=https://fornello.fi` in Vercel.
+2. Add a **Production** environment variable `RESEND_API_KEY` with the live key.
+3. In Vercel project settings → Domains, add `fornello.fi` and follow the DNS instructions.
+4. Vercel will re-deploy automatically and the robots.txt will switch to `Allow: /`.
+
+## Deploying to Vercel (quick reference)
 
 ```bash
 npx vercel
 ```
-
-Set `RESEND_API_KEY` (or equivalent) in Vercel environment variables.
-Set `BASE_URL` in `lib/metadata.ts` and `app/sitemap.ts` if deploying to a custom domain.

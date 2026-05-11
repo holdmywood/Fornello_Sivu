@@ -1,116 +1,416 @@
 {
   "meta": {
     "home": {
-      "title": "Fornello Oy — Laadukasta pyöreää puuta Itämeren alueelta",
-      "description": "Suomalainen puukaupan ammattilainen. FSC®- ja PEFC-sertifioitua tukkipuuta, kuitupuuta ja biomassaa."
+      "title": "Fornello Oy — Parempi vaihtoehto puukaupassa onnistumiseen",
+      "description": "Fornello Oy on suomalainen yhtiö, jonka päätoimialat ovat pyöreän puun kauppa ja agentuuri, ohjelmistoliiketoiminta sekä alan konsultointi."
     },
     "services": {
       "title": "Palvelut — Fornello Oy",
-      "description": "Puukauppa ja agentuuri, puunostoohjelmisto sekä konsultointi."
+      "description": "Pyöreän puun kauppa ja agentuuri, ohjelmistoliiketoiminta puunhankintaan sekä konsultointi."
     },
     "contact": {
-      "title": "Ota yhteyttä — Fornello Oy",
+      "title": "Yhteydenotto — Fornello Oy",
       "description": "Ota yhteyttä Fornello Oy:hyn. Latoluomantie 30, 29100 Luvia. +358 500 110 220."
+    },
+    "services_roundwood": {
+      "title": "Puukauppa ja agentuuritoiminta — Fornello Oy",
+      "description": "Fornello Oy harjoittaa puun hankintaa ja myyntiä toimituskaupalla. Yhteistyökumppaneina metsänhoitoyhdistykset, sahat ja puunhankintayritykset. PEFC- ja FSC-sertifioitu."
+    },
+    "services_software": {
+      "title": "Ohjelmistoliiketoiminta — Fornello Oy",
+      "description": "Forlog-tuoteperhe: Haukka, Pöllö ja Kyyhky – selainpohjaisia ohjelmistoja puunhankintaan ja bioenergialiiketoimintaan."
+    },
+    "services_consulting": {
+      "title": "Konsultointi — Fornello Oy",
+      "description": "Fornello tarjoaa konsultointipalveluita puun alkuperän hallintoon, logistiikkaan ja puunhankinnan organisointiin."
+    },
+    "ymparisto": {
+      "title": "Ympäristö — Fornello Oy",
+      "description": "Fornello Oy kantaa vastuunsa ympäristöstä. PEFC- ja FSC-sertifioitua puunhankintaa biologisesti, ekologisesti ja sosiaalisesti kestävällä tavalla."
+    },
+    "eudr": {
+      "title": "EUDR — Fornello Oy",
+      "description": "EU:n metsäkatoasetus (EUDR) asettaa tiukat vaatimukset puunhankintayrityksille puutavaran jäljitettävyyden ja tiedonhallinnan osalta."
     }
   },
   "nav": {
     "home": "Etusivu",
     "services": "Palvelut",
-    "contact": "Yhteystiedot",
-    "logo_alt": "Fornello Oy"
+    "contact": "Yhteydenotto",
+    "logo_alt": "Fornello Oy",
+    "ymparisto": "Ympäristö"
   },
   "home": {
     "hero": {
-      "headline": "Luotettavaa puuta. Vastuullisesti hankittuna.",
-      "subheadline": "Fornello toimittaa laadukasta pyöreää puuta Itämeren alueelta — tukkipuuta, kuitupuuta ja energiapuuta teollisuuden ja energiantuotannon tarpeisiin.",
+      "headline": "Kaikille hyvät kaupat!",
+      "subheadline": "Fornello Oy on suomalainen yhtiö, jonka päätoimialat ovat pyöreän puun kauppa ja agentuuri, ohjelmistoliiketoiminta puunhankintaan keskittyen sekä alan konsultointi.",
       "cta_primary": "Ota yhteyttä",
-      "cta_secondary": "Palvelumme"
+      "cta_secondary": "Palvelut"
     },
     "intro": {
-      "body": "Fornello Oy on suomalainen puukaupan erikoisyritys, joka toimii Itämeren alueella. Yhdistämme teollisuusasiakkaat laajaan, FSC®- ja PEFC-sertifioituun metsävarantoon — luotettavan logistiikkaverkoston ja vuosikymmenten paikallisen asiantuntemuksen tuella."
+      "body": "Oletteko etsimässä luotettavaa kumppania sahatukkien, kuitupuun, energiahakkeen tai energiapuun toimituksiin? Olette oikeassa paikassa."
     },
     "supply": {
-      "heading": "Mitä toimitamme",
-      "sawlogs": { "label": "Tukkipuu", "desc": "Korkealaatuisia tukkeja saha- ja rakennetimbertuotantoon." },
-      "pulpwood": { "label": "Kuitupuu", "desc": "Tasalaatuista kuitua sellu- ja paperiteollisuudelle." },
-      "energy_chips": { "label": "Energiahake", "desc": "Haketta bioenergia- ja voimalaitoksille." },
-      "energy_wood": { "label": "Energiapuu", "desc": "Kokorunkobiomassaa lämmön ja sähkön tuotantoon." }
+      "heading": "Tervetuloa sahatukkien, kuitupuun, energiahakkeen ja energiapuun lähteille!",
+      "sawlogs": {
+        "label": "Sahatukit",
+        "desc": "Korkealaatuisia tukkeja saha- ja rakennetimbertuotantoon."
+      },
+      "pulpwood": {
+        "label": "Kuitupuu",
+        "desc": "Tasalaatuista kuitua sellu- ja paperiteollisuudelle."
+      },
+      "energy_chips": {
+        "label": "Energiahake",
+        "desc": "Haketta bioenergia- ja voimalaitoksille."
+      },
+      "energy_wood": {
+        "label": "Energiapuu",
+        "desc": "Kokorunkobiomassaa lämmön ja sähkön tuotantoon."
+      }
     },
     "why": {
-      "heading": "Miksi Fornello",
+      "heading": "Miksi valita Fornello Oy toimittajaksenne?",
       "supply": {
-        "title": "Laaja toimituskyky",
-        "body": "Kattava yhteistyöverkosto Itämeren alueella takaa suuret ja tasaiset toimitusmäärät — myös tiukassa markkinatilanteessa."
+        "title": "Riittävät resurssit",
+        "body": "Itämeren alue tarjoaa runsaasti mahdollisuuksia kaikenlaisten metsäperäisten tuotteiden tuotannolle ilman, että vaarannetaan metsien kestävyyttä tai biodiversiteettiä. Erittäin laajan yhteistyöverkostonsa avulla Fornello Oy hankkii kaikki materiaalit kulloinkin parhaista ja kokonaisuuden kannalta edullisimmista lähteistä – teidänkin eduksenne!"
       },
       "sustainability": {
-        "title": "Vastuullinen hankinta",
-        "body": "Kaikki toimitukset täyttävät FSC®-, PEFC-, REDIII- ja EUDR-vaatimukset. Kestävä metsänhoito on toimintatapamme, ei pelkkä muodollisuus."
+        "title": "Kestävä metsätalous",
+        "body": "Metsätaloutta harjoitetaan vastuullisesti ja kestävästi ja metsien ekologinen monimuotoisuus säilyy. Metsätalouden ja luonnon välillä on tasapaino. Lakien ja normien noudattaminen on itsestäänselvyys. Lisäksi Fornello Oy:llä on alkuperäketjun hallintasertifikaatti sekä FSC® että PEFC -sertifiointijärjestelmässä. Luonnollisesti myös REDIII ja EUDR sääntöjä noudatetaan."
       },
       "quality": {
-        "title": "Laadunvarmistus",
-        "body": "Huolellinen lajittelu ja mittaus alkuperässä. Sovittu tavara toimitetaan sovitusti joka kerta."
+        "title": "Korkea laatu",
+        "body": "Käytämme parhaita käytäntöjä ja teknologioita varmistaaksemme että tuotteemme vastaavat kulloinkin sovittua ja täyttävät laatu- ja puhtausstandardit."
       },
       "logistics": {
-        "title": "Luotettava logistiikka",
-        "body": "Paikalliset kumppanuudet ja tehokkaat kuljetusverkostot pitävät toimitusketjusi aikataulussa."
+        "title": "Luotettava toimitusketju",
+        "body": "Yhteistyössä paikallisten toimijoiden kanssa voimme taata jatkuvan ja luotettavan toimitusketjun. Tehokkaat logistiikkaverkostomme mahdollistavat täsmälliset ja turvalliset toimitukset kohteisiinne."
       }
     },
     "services_overview": {
-      "heading": "Mitä teemme",
-      "roundwood": { "title": "Puukauppa ja agentuuri", "body": "Tukkipuun, kuitupuun ja biomassan hankinta, välitys ja logistiikka Itämeren alueella.", "cta": "Lue lisää" },
-      "software": { "title": "Puunostoohjelmisto", "body": "Puunoston, mittauksen ja raportoinnin digitalisoiva ohjelmisto.", "cta": "Lue lisää" },
-      "consulting": { "title": "Konsultointi", "body": "Asiantuntija-apua hankintastrategiaan, vaatimustenmukaisuuteen ja markkina-asemointiin.", "cta": "Lue lisää" }
+      "heading": "Palvelut",
+      "roundwood": {
+        "title": "Puukauppa ja agentuuritoiminta",
+        "body": "Sahatukkien, kuitupuun, energiahakkeen ja energiapuun hankinta, välitys ja logistiikka Itämeren alueella.",
+        "cta": "Lue lisää"
+      },
+      "software": {
+        "title": "Ohjelmistoliiketoiminta",
+        "body": "Ohjelmisto puunhankintaan ja hankintahallintaan.",
+        "cta": "Lue lisää"
+      },
+      "consulting": {
+        "title": "Konsultointi",
+        "body": "Konsultointi puunhankinnassa.",
+        "cta": "Lue lisää"
+      }
     },
     "certifications": {
-      "heading": "Sertifioinnit ja vaatimustenmukaisuus",
-      "note": "Kaikki hankinta täyttää FSC®-, PEFC-, REDIII- ja EUDR-vaatimukset."
+      "heading": "Sertifioinnit",
+      "note": "Fornello Oy:llä on alkuperäketjun hallintasertifikaatti sekä FSC® että PEFC -sertifiointijärjestelmässä. REDIII ja EUDR sääntöjä noudatetaan."
     },
     "cta": {
-      "heading": "Etsittekö luotettavaa puutavaratoimittajaa?",
-      "body": "Toimitamme laadukasta pyöreää puuta ajallaan — verkostosta, johon voi luottaa.",
+      "heading": "Tarvitsetteko pyöreän puun toimittajaa?",
+      "body": "Ottakaa yhteyttä, niin keskustellaan tarpeistanne.",
       "button": "Ota yhteyttä"
+    },
+    "gallery": {
+      "heading": "Tutustu toimintaamme kuvien kautta",
+      "button": "Katso kuvat"
     }
   },
   "services": {
-    "heading": "Palvelumme",
-    "subheading": "Kolme osaamisaluetta, yksi luotettava kumppani.",
+    "heading": "Palvelut",
+    "subheading": "Fornello Oy on suomalainen yhtiö, jonka päätoimialat ovat pyöreän puun kauppa ja agentuuri, ohjelmistoliiketoiminta puunhankintaan keskittyen sekä alan konsultointi.",
     "roundwood": {
-      "title": "Puukauppa ja agentuuri",
-      "body": "Hankimme ja välitämme tukkipuuta, kuitupuuta, energiahaketta ja energiapuuta Itämeren alueella. Paikallinen yhteistyöverkostomme takaa tasaiset toimitusmäärät ja kilpailukykyiset hinnat.",
-      "features": ["Tukkipuu sahateollisuudelle", "Kuitupuu sellu- ja paperiteollisuudelle", "Energiahake ja kokorunkobiomassat", "Itämeren laajuinen hankintaverkosto", "FSC®- ja PEFC-sertifioitu puu"]
+      "title": "Puukauppa ja agentuuritoiminta",
+      "body": "Fornello Oy hankkii ja välittää sahatukkeja, kuitupuuta, energiahaketta ja energiapuuta Itämeren alueella. Yhtiö tuo ja vie korkealaatuisia skandinaavisia puutuotteita FOB- tai CIF-hinnoittelulla.",
+      "features": [
+        "Sahatukit",
+        "Kuitupuu",
+        "Energiahake",
+        "Energiapuu",
+        "FSC®- ja PEFC-sertifioitu puu"
+      ]
     },
     "software": {
-      "title": "Puunostoohjelmisto",
-      "body": "Ohjelmistomme on suunniteltu puunoston erityisvaatimuksiin. Digitalisoi mittaukset, automatisoi raportointi ja saa täysi näkyvyys hankintaoperaatioihisi.",
-      "features": ["Puun mittaus- ja lajittelutyökalut", "Hankintaprosessien automatisointi", "Vaatimustenmukaisuus- ja raportointinäkymät", "Räätälöity pohjoismaisille metsänhoitostandardeille"]
+      "title": "Ohjelmistoliiketoiminta",
+      "body": "Ohjelmisto puunhankintaan ja hankintahallintaan.",
+      "features": [
+        "Puunhankinnan työkalut",
+        "Mittaus ja raportointi",
+        "Vaatimustenmukaisuustuki"
+      ]
     },
     "consulting": {
       "title": "Konsultointi",
-      "body": "Autamme uusille markkinoille laajentamisessa, vaatimustenmukaisuusprosessien kehittämisessä ja toimitusketjun optimoinnissa.",
-      "features": ["Hankintastrategia", "REDIII- ja EUDR-vaatimustenmukaisuusneuvonta", "Markkina-analyysi ja toimittaja-arviointi", "Toimitusketjun optimointi"]
+      "body": "Konsultointi puunhankinnassa.",
+      "features": [
+        "Hankintastrategia",
+        "REDIII- ja EUDR-vaatimustenmukaisuus",
+        "Markkinaneuvonta"
+      ]
+    },
+    "roundwood_page": {
+      "tagline": "Myy aina parhailla hinnoilla ja ehdoilla – tai osta edullista tuontipuuta",
+      "section1": {
+        "heading": "Suomalaista puuta maailmalle",
+        "body1": "Fornello Oy hankkii puuta koko Suomessa, mutta pääasiassa vain toimituskaupalla ja yleensä vain muutamaan toimituspaikkaan samanaikaisesti. Tavoitteena on mm. hankkia puuta sieltä, missä se muutoin käy heikommin kaupaksi. Puunhankinnassa yhteistyökumppaneina ja puuta toimittavina asiakkaina Fornellolla ovat mm. metsänhoitoyhdistykset, sahat, puunhankintaa harjoittavat yritykset (esim. bioenergialiiketoimintaa harjoittavat), sekä joskus myös yksityiset metsänomistajat. Hankkimansa puun Fornello Oy myy joko kotimaan teollisuudelle tai vientimarkkinoille hyödyntäen laajaa kontaktiverkostoaan ja kokemustaan niin kotimaan kaupassa kuin viennissäkin. Fornello Oy:llä on PEFC– ja FSC®-sertifikaatit puun alkuperäketjun hallintaan.",
+        "body2": "Fornello Oy ostaa mm. kuitupuuta ja ns. kakkosluokan tukkia (Suomessa varsin tuntematon laji), joskus myös pikkutukkia ja normaaliakin tukkia. Varastot kiertävät nopeasti, eikä puuta makuuteta teiden varsilla pilaantumassa. Luonnollisesti tällöin myös metsämaksut kulkevat joutuisasti. Yleisin kauppamuoto on toimituskauppa, mutta jonkin verran on myös tienvarsikauppaa (hankinta). Toimintaa on Etelä-Suomesta aina Lappiin saakka. Suomalainen puu on hyvä tuote, ja jokainen hankittu motti tuo kipeästi kaivattuja työtilaisuuksia ja lisätuloja sinne, missä niitä eniten tarvitaan."
+      },
+      "section2": {
+        "heading": "Lisääntyvä puukauppa piristää taloutta",
+        "body1": "Itämeren alueella käydään erittäin vilkasta puukauppaa, jossa Suomi myyjänä ei juuri esiinny. Suomella on kuitenkin Itämeren maista poikkeuksellisen mittavat metsäreservit vajaakäytössä: laskennallisesti karkeasti ottaen n. 110 miljoonan motin kasvusta vain n. 68 miljoonaa mottia hyödynnetään (teollisuus- ja energiakäyttö) – joka vuosi siis puupääomamme kasvaa 30 miljoonaa mottia. Niin paljon voisimme hakkuita lisätä ilman että metsävaramme edes pienenisivät. Erityisesti meillä on ylenpalttisesti mäntykuitupuuta. Vientituotteena suomalainen puu ei koskaan ole halpaa, mutta löytyy ostajia, jotka arvostavat toimitusvarmuutta ja ennustettavan vakaata hintatasoamme.",
+        "body2": "Kuitupuun korjuun lisäyksellä on valtavia positiivisia vaikutuksia. Jo 100 000 m³ lisäys työllistää 3–4 harvennuskoneketjua (12–16 kuljettajaa), 2–3 puutavara-autoa (4–6 kuljettajaa), sekä 2–3 toimihenkilöä – puhumattakaan kantorahatulojen kasvusta. Kotimaan teollisuuteen toimitettu puu saattaa korvata tuontia, vienti puolestaan on suoraan lisäystä. Uutiset uusista selluteollisuuden investoinneista ovat erittäin rohkaisevia!"
+      },
+      "section3": {
+        "heading": "Tarvittaessa tuontiakin",
+        "body": "Vaikka Suomessa puuta riittävästi onkin, on sitä joissain tilanteissa myös järkevää tuoda maahan. Korkealaatuisen kuitupuumme käyttöön energiantuotannossa on syytä suhtautua kriittisesti. Sitten kun kaikki teollisuuteen kelpaamaton tai muutoin vähäarvoinen puu on jo ohjattu energiakäyttöön, on mahdollinen lisätarve joskus mielekkäämpää tuoda maahan sikäli kun sopivaa tavaraa järkevästi saatavilla on. Fornello Oy:n laajan kansainvälisen kontaktiverkoston avulla löytyy tarvittaessa myös kulloinkin edullisin mahdollinen tuontikanava. Kysy rohkeasti lisää!"
+      }
+    },
+    "software_page": {
+      "tagline": "Ota kokonaisuus haltuun, ja tee oikeasti rahaa puunhankinnalla.",
+      "intro": "Forlog-tuoteperhe tarjoaa nykyaikaisen toiminnanohjausjärjestelmän edistyksellisillä ominaisuuksilla – kuitenkin hyvin edullisesti. Järjestelmä kattaa kaikki puuhankinnan vaiheet tarjouksesta loppukäyttäjälle saakka. Ohjelmisto on modulirakenteinen, ja saatavilla on myös mm. bioenergialiiketoimintaan tarvittavat toiminnot ja laskennat kattava järjestelmä. Kannattaa kysyä ja tutustua lisää vaikkapa koekäytön merkeissä! Ohjelmiston avulla onnistuu EUDR-asetuksen mukainen alkuperä ym. -tietojen keräys, hallinta, säilytys ja raportointi. Vuoden 2025 aikana ohjelmisto integroidaan tarvittavin osin TRACES-järjestelmään.",
+      "eudr_badge": "EUDR tulee – oletko valmis?",
+      "products_heading": "Forlog-tuoteperhe",
+      "products": [
+        {
+          "name": "Haukka",
+          "tagline": "Selainpohjainen, kaikki puunhankinnan toiminnot kattava järjestelmä – toimii vaikka älypuhelimella",
+          "features": [
+            "Katelaskenta jo tarjousvaiheessa",
+            "Monipuoliset varastotoiminnot",
+            "Automaattinen autokuljetusmatkojen laskenta/reititys",
+            "Uusimmat kartta-aineistot (maastokartat, taustakartat, ortokuvat, kiinteistötiedot)",
+            "Nopeakäyttöiset, pitkälle automatisoidut taksanlaskennat (korjuu ja kaukokuljetus)",
+            "Aina reaaliaikaiset varastotiedot karttoineen (myös autoilijoilla)",
+            "Hakkuukoneiden työohjeet/-kartat ja tuotostietojen sisäänluku",
+            "Ei ajomääräysten ja työohjeiden lähettämisiä – näkyvät välittömästi kun tallennettu",
+            "Integroitu Forest Hub -järjestelmään – papiNet-standardi varmistaa tietojen yhdenmukaisuuden koko toimitusketjussa",
+            "Organisaatiotasomahdollisuus (jos esim. useita eri hankinta-alueita)",
+            "Alkuperän hallinnan sertifikaatit huomioitu: PEFC, FSC ja SBP",
+            "Kattava, räätälöitävissä oleva raportointi"
+          ]
+        },
+        {
+          "name": "Pöllö",
+          "tagline": "Bioenergialiiketoimintaan räätälöity järjestelmä",
+          "features": [
+            "Kattaa kaikki Haukka-järjestelmän toiminnot sekä bioenergialiiketoiminnan työlajit",
+            "Edistynyt laskenta: muuntaa ja vertailee eri mittayksiköitä (m³ / i-m³ / MWh)",
+            "Katelaskenta tarjousvaiheessa – vaikka ostetaan motteja ja myydään megawattitunteja",
+            "Kuivumisaikojen laskenta ja varastojen kosteusarvojen seuranta- ja muuntomahdollisuus",
+            "Kattaa alkuperän hallinnan (mm. sähköntuotannon tuissa tarpeen)",
+            "Kattava, räätälöitävissä oleva raportointi"
+          ]
+        },
+        {
+          "name": "Kyyhky",
+          "tagline": "Varastojen ja kuljetusten hallintaan",
+          "features": [
+            "Varastojen reaaliaikainen ylläpito",
+            "Automaattinen autokuljetusmatkojen laskenta/reititys",
+            "Uusimmat kartta-aineistot (maastokartat, taustakartat, ortokuvat, kiinteistötiedot)",
+            "Nopeakäyttöinen, pitkälle automatisoitu taksanlaskenta",
+            "Kattava, räätälöitävissä oleva raportointi"
+          ]
+        }
+      ],
+      "benefits_heading": "Forlog-toiminnanohjausjärjestelmän hyödyt",
+      "benefits_intro": "Siirtyminen Forlog-toiminnanohjausjärjestelmän käyttöön voi tuoda merkittäviä etuja yrityksellesi.",
+      "benefits": [
+        {
+          "heading": "Tehokkuuden parantaminen",
+          "body": "Forlog integroi kaikki yrityksesi puunhankintatoiminnot yhdeksi saumattomaksi järjestelmäksi. Tiedon jakaminen eri toimijoiden – urakoitsijoiden ja asiakkaiden – välillä nopeutuu ja virheiden määrä vähenee. Rutiinitehtävät, kuten urakointimaksujen laskennat, voidaan automatisoida."
+        },
+        {
+          "heading": "Reaaliaikainen tiedon saatavuus",
+          "body": "Forlog tarjoaa reaaliaikaisen näkymän yrityksesi toimintaan. Voit seurata varastotilannetta, toimitusmääriä, ostomääriä ja korjuun edistymistä yhdestä keskitetystä paikasta – nopeampaa ja tarkempaa päätöksentekoa varten."
+        },
+        {
+          "heading": "Parempi asiakaspalvelu",
+          "body": "Kattava näkymä asiakkaiden tietoihin ja sopimushistoriaan mahdollistaa henkilökohtaisemman ja nopeamman palvelun, joka parantaa asiakastyytyväisyyttä ja -uskollisuutta."
+        },
+        {
+          "heading": "Kustannussäästöt",
+          "body": "Automatisoimalla liiketoimintaprosesseja – kuljetusten ja korjuun hallintaa, urakointimaksulaskelmia ja mittaustodistuksia – Forlog vähentää toimintakustannuksia, ylimääräistä työtä ja varastokustannuksia."
+        },
+        {
+          "heading": "Skaalautuvuus ja kasvupotentiaali",
+          "body": "Forlog on suunniteltu skaalautumaan yrityksesi kasvun mukana. Voit lisätä uusia toimintoja, käyttäjiä ja prosesseja tarpeen mukaan ilman huolta järjestelmän riittävyydestä."
+        },
+        {
+          "heading": "Sääntöjen noudattaminen ja riskien hallinta",
+          "body": "Forlog auttaa noudattamaan säädöksiä ja vähentämään liiketoiminnan riskejä vakioitujen toimintamallien avulla. Järjestelmä sisältää valmiuden PEFC-, FSC- ja SBP-sertifiointijärjestelmien ylläpitoon ja seurantaan."
+        }
+      ],
+      "benefits_outro": "Siirtyminen Forlog-toiminnanohjausjärjestelmään on edullisempaa kuin uskotkaan – ja maksaa itsensä takaisin moninkertaisesti.",
+      "forestry_callout": "Kysy myös metsänhoito-osiosta ja metsävaratiedoista",
+      "erp_heading": "Miten metsäalan yritys hyötyy toiminnanohjausjärjestelmästä?",
+      "erp_intro": "Toiminnanohjausjärjestelmä eli ERP yhdistää kaikki keskeiset liiketoimintaprosessit, kuten puunhankinnan, kuljetuksen, varastoinnin ja laskutuksen. Metsäalan yritykselle tämä tarkoittaa:",
+      "erp_points": [
+        {
+          "label": "Parempi näkyvyys ja seuranta",
+          "body": "Kaikki puutavara-, sopimus- ja kuljetustiedot yhdessä järjestelmässä."
+        },
+        {
+          "label": "Vähemmän manuaalista työtä",
+          "body": "Automatisoidut prosessit vähentävät virheitä ja säästävät aikaa."
+        },
+        {
+          "label": "Tietoon perustuvat päätökset",
+          "body": "Reaaliaikainen data auttaa tekemään strategisia päätöksiä ja optimoimaan resurssit."
+        }
+      ],
+      "efficiency_heading": "Miten ERP parantaa tehokkuutta?",
+      "efficiency_intro": "ERP-järjestelmä auttaa metsäalan yritystä toimimaan tehokkaammin kaikilla tasoilla:",
+      "efficiency_points": [
+        {
+          "label": "Prosessien optimointi",
+          "body": "Toistuvat tehtävät voidaan automatisoida ja seurata tehokkaasti."
+        },
+        {
+          "label": "Resurssien hallinta",
+          "body": "Puunkorjuu ja kuljetukset voidaan aikatauluttaa tarkasti."
+        },
+        {
+          "label": "Raportointi ja analytiikka",
+          "body": "Selkeät raportit auttavat tunnistamaan pullonkaulat ja mahdollisuudet parantaa tuottavuutta."
+        }
+      ],
+      "scale_heading": "Skaalautuvuus ja kasvu ERP:n avulla",
+      "scale_intro": "Kasvava metsäalan yritys tarvitsee järjestelmän, joka kasvaa mukana. Puunhankinta-ERP mahdollistaa:",
+      "scale_points": [
+        {
+          "label": "Skaalautuvuus",
+          "body": "Järjestelmä tukee liiketoimintasi kasvua ilman suuria lisäinvestointeja."
+        },
+        {
+          "label": "Uusien toimintojen lisääminen",
+          "body": "Voit laajentaa palveluita, lisätä uusia sopimuksia tai toimipisteitä helposti."
+        },
+        {
+          "label": "Kilpailukyvyn vahvistaminen",
+          "body": "Tehokkaampi toiminta ja parempi tiedonhallinta vahvistavat yrityksen markkina-asemaa."
+        }
+      ],
+      "scale_outro": "Ota yhteyttä ja kysy demo puunhankinta-ERP:stä ja Forlog-tuoteperheestä."
+    },
+    "consulting_page": {
+      "subheading": "Kaikkea ei voi eikä tarvitsekaan tietää itse",
+      "body": "Fornello tarjoaa konsultointipalveluita erityisesti puun alkuperän hallintoon, logistiikkaan ja puunhankinnan organisointiin liittyen. Palveluihimme kuuluvat myös erilaiset urakointitaksat ja niihin liittyvät laskentajärjestelmät."
     }
   },
   "contact": {
-    "heading": "Ota yhteyttä",
-    "subheading": "Vastaamme yhden arkipäivän kuluessa.",
+    "heading": "Yhteydenotto",
+    "subheading": "Kerro lyhyesti, mitä asiasi koskee, niin asiantuntijamme palaa sinulle mahdollisimman pian.",
     "form": {
-      "name": "Koko nimi", "email": "Sähköpostiosoite", "company": "Yritys", "message": "Viesti",
-      "name_placeholder": "Nimesi", "email_placeholder": "sinä@yritys.fi",
-      "company_placeholder": "Yrityksesi", "message_placeholder": "Miten voimme auttaa?",
+      "name": "Koko nimi",
+      "email": "Sähköpostiosoite",
+      "company": "Yritys",
+      "message": "Viesti",
+      "name_placeholder": "Nimesi",
+      "email_placeholder": "sinä@yritys.fi",
+      "company_placeholder": "Yrityksesi",
+      "message_placeholder": "Miten voimme auttaa?",
       "submit": "Lähetä viesti",
       "success": "Kiitos — otamme sinuun pian yhteyttä.",
       "error": "Jokin meni pieleen. Yritä uudelleen tai lähetä sähköpostia osoitteeseen info@fornello.fi."
     },
-    "info": { "address_label": "Osoite", "phone_label": "Puhelin", "email_label": "Sähköposti" }
+    "info": {
+      "address_label": "Osoite",
+      "phone_label": "Puhelin",
+      "email_label": "Sähköposti"
+    }
   },
   "footer": {
-    "tagline": "Laadukasta pyöreää puuta Itämeren alueelta.",
-    "nav_label": "Yhteystiedot",
+    "tagline": "Parempi vaihtoehto puukaupassa onnistumiseen.",
+    "nav_label": "Yhteydenotto",
+    "links_label": "Sivut",
     "lang_label": "Kieli",
-    "copyright": "© {year} Fornello Oy. Kaikki oikeudet pidätetään."
+    "privacy": "Tietosuojaseloste",
+    "copyright": "© {year} Fornello Oy"
   },
   "common": {
-    "learn_more": "Lue lisää", "contact_us": "Ota yhteyttä", "back_to_top": "Takaisin ylös",
-    "loading": "Lähetetään…", "required_field": "Tämä kenttä on pakollinen."
+    "learn_more": "Lue lisää",
+    "contact_us": "Ota yhteyttä",
+    "back_to_top": "Takaisin ylös",
+    "loading": "Lähetetään…",
+    "required_field": "Tämä kenttä on pakollinen.",
+    "back_to_services": "Takaisin palveluihin"
+  },
+  "ymparisto": {
+    "heading": "Ympäristö",
+    "section_heading": "Vastuullista puunhankintaa",
+    "body1": "Kansallisten lakien noudattaminen on minimitaso, joka jokaisen puunhankkijan on täytettävä. EU antoi lokakuussa 2010 puutavara-asetuksen (EUTR 995/2010), jonka tarkoituksena on estää laittoman puun ja siitä jalostettujen tuotteiden saapuminen ja käyttö EU:n alueella. Suomessakin kansallisia lakeja on tietysti noudatettava, ja se on pystyttävä myös jokaisen puuerän kohdalla osoittamaan.",
+    "body2": "Sen lisäksi että Fornello Oy täyttää minimitason noudattamalla lakeja, kantaa se laajemminkin vastuunsa ympäristöstä. Yhtiö tukee kestävää kehitystä, jolloin kaikki puukin hankitaan biologisesti, ekologisesti ja sosiaalisesti kestävällä tavalla. Fornello Oy:llä on PEFC– ja FSC® -sertifikaatit puun alkuperäketjun hallintaan. Yhtiön johto on sitoutunut toimimaan molempien järjestelmien vaatimusten mukaisesti, ja katselmoi toimintaa systemaattisesti ja säännöllisesti. Riippumattomana ulkopuolisena osapuolena järjestelmää katselmoi Kiwa Inspecta.",
+    "pefc_info": "Lisää PEFC –sertifioinnista voi lukea oheisesta linkistä. Samalla voi mm. tarkistaa sertifikaatin voimassaolon.",
+    "fsc_info": "FSC –järjestelmästä löytyy lisätietoa ja myös mm. sertifikaatin voimassaolon voi tarkistaa osoitteessa:",
+    "sbp_info": "Tietoa SBP sertifioinnista:"
+  },
+  "eudr": {
+    "meta_title": "EUDR — Fornello Oy",
+    "meta_description": "EU:n metsäkatoasetus (EUDR) asettaa tiukat vaatimukset puunhankintayrityksille puutavaran jäljitettävyyden ja tiedonhallinnan osalta.",
+    "badge": "EU-lainsäädäntö",
+    "h1": "EU:n metsäkatoasetus (EUDR)",
+    "hero_intro": "EUDR asettaa tiukat vaatimukset puunhankintayrityksille puutavaran jäljitettävyyden ja tiedonhallinnan osalta. Asetus pyrkii ehkäisemään metsäkatoa ja metsien tilan heikkenemistä maailmanlaajuisesti edellyttämällä, että yritykset ottavat käyttöön tietojärjestelmät toimitusketjujen tarkkaa seurantaa varten.",
+    "what_h2": "Mitä on EUDR?",
+    "what_body": "on lainsäädäntö, joka on suunniteltu \"estämään metsäkato ja metsien tilan heikkeneminen EU:n markkinoille tulevien tuotteiden yhteydessä\". Se vaikuttaa suoraan puunhankintaan ja puukauppaan koko toimitusketjussa. Eri vaatimukset koskevat toimijoita ja kauppiaita, ja suuremmilla yrityksillä on tiukemmat vaatimukset.",
+    "aspects_h2": "Kuusi keskeistä näkökohtaa",
+    "aspects": {
+      "1": {
+        "title": "Laillisuuden varmistamisvaatimus",
+        "body": "Kaikkien EU:hun tuotavien puutuotteiden on täytettävä laillisuusvaatimukset. Alkuperämaa on oltava todennettavissa ja puutavaran on oltava peräisin alueilta, joissa ei harjoiteta laitonta hakkuuta eikä metsäkatoa."
+      },
+      "2": {
+        "title": "Huolellisuusvelvoitteet",
+        "body": "Yritysten on noudatettava asianmukaista huolellisuutta varmistaakseen, että puu ei ole peräisin metsäkatoalueilta eikä laittoman hakkuun kohteeksi joutuneista metsistä."
+      },
+      "3": {
+        "title": "Metsäkadon ehkäiseminen",
+        "body": "Asetus kieltää metsäkatoon liittyvien tuotteiden tuonnin ja viennin, erityisesti maista, joissa esiintyy laajamittaista metsäkatoa."
+      },
+      "4": {
+        "title": "Uudet raportointi- ja seurantakäytännöt",
+        "body": "Tuojien ja viejien on raportoitava tarkasti tuotteiden alkuperä ja varmennettava laillisuus entistä kattavammilla dokumentointivaatimuksilla."
+      },
+      "5": {
+        "title": "Sertifiointi- ja tarkastusmekanismit",
+        "body": "Asetus tukee FSC- ja PEFC-sertifiointeja, mutta yritysten on osoitettava toimitusketjun vaatimustenmukaisuus metsäkaton torjumisen osalta. Rikkomuksista seuraa sanktioita."
+      },
+      "6": {
+        "title": "Siirtymäaikataulu ja vaikutukset yrityksiin",
+        "body": "EUDR otetaan käyttöön vaiheistettuna, jolloin yrityksille annetaan aikaa sopeutua uusiin hankinta- ja kauppavaatimuksiin. Alkuperäinen voimaantulopäivä 1.1.2025 on siirretty eteenpäin."
+      }
+    },
+    "sysreqs_h2": "Tietojärjestelmävaatimukset",
+    "sysreqs_intro": "Yritysten on otettava käyttöön tietojärjestelmiä alkuperätietojen hallintaan, TRACES-integrointiin ja raportointiin — muutoin manuaalinen työmäärä kasvaa ylivoimaiseksi.",
+    "sysreqs": {
+      "1": {
+        "title": "Alkuperätietojen keruu ja säilytys",
+        "body": "Yritysten on kerättävä ja säilytettävä yksityiskohtaiset puutavaran alkuperätiedot — mukaan lukien hakkuupaikka ja toimittajatiedot — vähintään viiden vuoden ajan."
+      },
+      "2": {
+        "title": "Täydellinen ketjun jäljitettävyys",
+        "body": "Järjestelmien on seurattava puutuotteita metsästä valmiiseen tuotteeseen saakka ja varmistettava, ettei lähteitä liity metsäkatoon."
+      },
+      "3": {
+        "title": "Huolellisuusvakuutuksien hallinta",
+        "body": "Yritysten on laadittava, hallittava ja arkistoitava vaatimustenmukaisuusvakuutukset, jotka osoittavat säädösten täyttymisen."
+      },
+      "4": {
+        "title": "TRACES-järjestelmäintegraatio",
+        "body": "Asetus velvoittaa yrityksiä ilmoittamaan EU:n TRACES-järjestelmään aina, kun puu liikkuu toimitusketjuissa. Tämä edellyttää sujuvaa tiedonsiirtoa mahdollistavaa järjestelmäintegraatiota."
+      },
+      "5": {
+        "title": "Reaaliaikainen tiedonhallinta ja raportointi",
+        "body": "Järjestelmien on tarjottava välitön pääsy alkuperätietoihin ja mahdollistettava nopea, tarkka viranomaisraportointi sekä sisäinen päätöksenteko."
+      }
+    },
+    "cta_badge": "Forlog tukee EUDR-vaatimustenmukaisuutta",
+    "cta_body": "Forlog-ohjelmistoperhe sisältää valmiuden alkuperätietojen hallintaan, TRACES-integraatioon ja raportointiin.",
+    "btn_software": "Forlog-ohjelmisto",
+    "btn_contact": "Ota yhteyttä"
   }
 }

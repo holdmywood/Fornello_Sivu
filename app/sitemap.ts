@@ -1,7 +1,9 @@
 import type { MetadataRoute } from 'next'
 import { routing } from '@/lib/navigation'
 
-const BASE_URL = 'https://fornello.fi'
+const BASE_URL =
+  process.env.NEXT_PUBLIC_BASE_URL ??
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://fornello.fi')
 const paths = ['', '/services', '/contact']
 
 export default function sitemap(): MetadataRoute.Sitemap {

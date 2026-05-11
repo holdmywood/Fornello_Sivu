@@ -1,116 +1,416 @@
 {
   "meta": {
     "home": {
-      "title": "Fornello Oy — Kvalitetsvirke från Östersjöregionen",
-      "description": "Finsk specialist på virkeshandel. FSC®- och PEFC-certifierade sågstockar, massaved och biomassa."
+      "title": "Fornello Oy — Skandinavisk virkeshandel",
+      "description": "Fornello Oy är ett finskt företag som specialiserar sig på rundvirkehandel och agentur, programvara för virkesupphandling samt konsulttjänster."
     },
     "services": {
       "title": "Tjänster — Fornello Oy",
-      "description": "Virkeshandel och agentur, programvara för virkesköp samt konsulttjänster."
+      "description": "Rundvirkehandel och agentur, programvara för virkesupphandling samt konsulttjänster från Fornello Oy."
     },
     "contact": {
       "title": "Kontakt — Fornello Oy",
       "description": "Kontakta Fornello Oy. Latoluomantie 30, 29100 Luvia, Finland. +358 500 110 220."
+    },
+    "services_roundwood": {
+      "title": "Rundvirkehandel och agentur — Fornello Oy",
+      "description": "Fornello Oy anskaffar och förmedlar virke via leveranshandel. Partner är skogsvårdsföreningar, sågverk och virkesanskaffningsföretag. PEFC- och FSC-certifierade."
+    },
+    "services_software": {
+      "title": "Programvaruverksamhet — Fornello Oy",
+      "description": "Forlog-produktfamiljen: Haukka, Pöllö och Kyyhky – webbläsarbaserad programvara för virkesupphandling och bioenergiverksamhet."
+    },
+    "services_consulting": {
+      "title": "Konsulttjänster — Fornello Oy",
+      "description": "Fornello erbjuder konsulttjänster inom hantering av virkets ursprung, logistik och organisering av virkesupphandling."
+    },
+    "ymparisto": {
+      "title": "Miljö — Fornello Oy",
+      "description": "Fornello Oy tar ansvar för miljön. PEFC- och FSC-certifierad virkesanskaffning på biologiskt, ekologiskt och socialt hållbart sätt."
+    },
+    "eudr": {
+      "title": "EUDR — Fornello Oy",
+      "description": "EU:s avskogningsförordning (EUDR) ställer strikta krav på virkesanskaffningsföretag vad gäller spårbarhet och datahantering för timmer."
     }
   },
   "nav": {
     "home": "Hem",
     "services": "Tjänster",
     "contact": "Kontakt",
-    "logo_alt": "Fornello Oy"
+    "logo_alt": "Fornello Oy",
+    "ymparisto": "Miljö"
   },
   "home": {
     "hero": {
-      "headline": "Pålitligt virke. Ansvarsfullt anskaffat.",
-      "subheadline": "Fornello levererar kvalitetsvirke från Östersjöregionen — sågstockar, massaved och energived för industri och energiproduktion.",
+      "headline": "Goda affärer för alla!",
+      "subheadline": "Fornello Oy är ett finskt företag vars huvudverksamheter är handel med rundvirke och agentur, programvaruverksamhet med fokus på virkesupphandling samt konsulttjänster inom branschen.",
       "cta_primary": "Kontakta oss",
       "cta_secondary": "Våra tjänster"
     },
     "intro": {
-      "body": "Fornello Oy är ett finskt specialistföretag inom virkeshandel med verksamhet i hela Östersjöregionen. Vi förbinder industriella köpare med stora, FSC®- och PEFC-certifierade skogsresurser — med stöd av ett pålitligt logistiknätverk och decennier av lokal expertis."
+      "body": "Söker ni en tillförlitlig partner för leveranser av sågstockar, massaved, energiflis eller energived? Ni har kommit till rätt plats."
     },
     "supply": {
-      "heading": "Vad vi levererar",
-      "sawlogs": { "label": "Sågstockar", "desc": "Högkvalitativa stockar för såg- och konstruktionsvirke." },
-      "pulpwood": { "label": "Massaved", "desc": "Jämn kvalitet på fiber för massa- och pappersindustrin." },
-      "energy_chips": { "label": "Energiflis", "desc": "Processad träflis för bioenergi- och kraftvärmeverk." },
-      "energy_wood": { "label": "Energived", "desc": "Helträdsbiomasssa för värme- och elproduktion." }
+      "heading": "Välkommen till källorna för sågstockar, massaved, energiflis och energived!",
+      "sawlogs": {
+        "label": "Sågstockar",
+        "desc": "Högkvalitativa stockar för såg- och konstruktionstimmerproduktion."
+      },
+      "pulpwood": {
+        "label": "Massaved",
+        "desc": "Jämn kvalitet på fiber för massa- och pappersindustrin."
+      },
+      "energy_chips": {
+        "label": "Energiflis",
+        "desc": "Processad träflis för bioenergi- och kraftvärmeverk."
+      },
+      "energy_wood": {
+        "label": "Energived",
+        "desc": "Heltrådsbiomassa för värme- och elproduktion."
+      }
     },
     "why": {
-      "heading": "Varför Fornello",
+      "heading": "Varför välja Fornello Oy som er leverantör?",
       "supply": {
-        "title": "Riklig tillgång",
-        "body": "Ett omfattande samarbetsnätverk i Östersjöregionen ger er tillgång till stora, jämna volymer — även i ett ansträngt marknadsläge."
+        "title": "Tillräckliga resurser",
+        "body": "Östersjöregionen erbjuder gott om möjligheter för produktion av alla slags skogsprodukter utan att äventyra skogarnas hållbarhet eller biologiska mångfald. Genom sitt omfattande samarbetsnätverk anskaffar Fornello Oy alla material från de bästa och mest kostnadseffektiva källorna vid varje given tidpunkt – till er fördel!"
       },
       "sustainability": {
-        "title": "Ansvarsfullt anskaffande",
-        "body": "Varje leverans uppfyller kraven i FSC®, PEFC, REDIII och EUDR. Hållbart skogsbruk är vårt arbetssätt, inte en formalitet."
+        "title": "Hållbart skogsbruk",
+        "body": "Skogsbruket bedrivs ansvarsfullt och hållbart. Skogarna förvaltas på ett sätt som bevarar deras ekologiska mångfald, och det råder balans mellan skogsbruk och natur. Att följa lagar och bestämmelser är en självklarhet. Dessutom har Fornello Oy ett spårbarhetscertifikat i både FSC®- och PEFC-certifieringssystemen. Naturligtvis följs även REDIII- och EUDR-reglerna."
       },
       "quality": {
-        "title": "Kvalitetssäkring",
-        "body": "Noggrann sortering och mätning vid källan. Avtalad vara levereras som avtalat, varje gång."
+        "title": "Hög kvalitet",
+        "body": "Vi använder bästa praxis och teknik för att säkerställa att våra produkter uppfyller de överenskomna specifikationerna och följer kvalitets- och renhetsstandarder."
       },
       "logistics": {
-        "title": "Tillförlitlig logistik",
-        "body": "Lokala partnerskap och effektiva transportnätverk håller er leveranskedja i tid."
+        "title": "Tillförlitlig leveranskedja",
+        "body": "Genom samarbete med lokala partners kan vi garantera en kontinuerlig och tillförlitlig leveranskedja. Våra effektiva logistiknätverk möjliggör exakta och säkra leveranser till era destinationer."
       }
     },
     "services_overview": {
-      "heading": "Vad vi gör",
-      "roundwood": { "title": "Virkeshandel och agentur", "body": "Anskaffning, förmedling och logistik för sågstockar, massaved och biomassa i Östersjöregionen.", "cta": "Läs mer" },
-      "software": { "title": "Programvara för virkesköp", "body": "Ändamålsenliga verktyg som effektiviserar virkesupphandling, mätning och rapportering.", "cta": "Läs mer" },
-      "consulting": { "title": "Konsulttjänster", "body": "Expertråd kring upphandlingsstrategi, regelefterlevnad och marknadspositionering.", "cta": "Läs mer" }
+      "heading": "Tjänster",
+      "roundwood": {
+        "title": "Rundvirkehandel och agentur",
+        "body": "Anskaffning, förmedling och logistik för sågstockar, massaved, energiflis och energived i Östersjöregionen.",
+        "cta": "Läs mer"
+      },
+      "software": {
+        "title": "Programvaruverksamhet",
+        "body": "Programvara för virkesupphandling och inköpshantering.",
+        "cta": "Läs mer"
+      },
+      "consulting": {
+        "title": "Konsulttjänster",
+        "body": "Konsulttjänster inom virkesupphandling.",
+        "cta": "Läs mer"
+      }
     },
     "certifications": {
-      "heading": "Regelefterlevnad och certifieringar",
-      "note": "All anskaffning uppfyller kraven i FSC®, PEFC, REDIII och EUDR."
+      "heading": "Certifieringar och regelefterlevnad",
+      "note": "Fornello Oy har spårbarhetscertifikat i både FSC®- och PEFC-certifieringssystemen. REDIII- och EUDR-reglerna följs."
     },
     "cta": {
-      "heading": "Söker ni en pålitlig virkesleverantör?",
-      "body": "Vi levererar kvalitetsvirke i tid, varje gång — från ett nätverk ni kan lita på.",
+      "heading": "Behöver ni en rundvirkeleverantör?",
+      "body": "Hör av er så diskuterar vi era behov.",
       "button": "Kontakta oss"
+    },
+    "gallery": {
+      "heading": "Bekanta er med vår verksamhet genom bilder",
+      "button": "Se bilder"
     }
   },
   "services": {
-    "heading": "Våra tjänster",
-    "subheading": "Tre kompetensområden, en pålitlig partner.",
+    "heading": "Tjänster",
+    "subheading": "Fornello Oy är ett finskt företag vars verksamhetsgrenar är rundvirkehandel och agentur, programvaruverksamhet samt konsulttjänster inom virkesupphandling.",
     "roundwood": {
-      "title": "Virkeshandel och agentur",
-      "body": "Vi anskaffar och förmedlar sågstockar, massaved, energiflis och energived i hela Östersjöregionen. Vårt lokala partnernätverk säkerställer jämna leveransvolymer och konkurrenskraftiga priser.",
-      "features": ["Sågstockar för sågverksindustrin", "Massaved för massa- och pappersindustrin", "Energiflis och helträdsbiomassor", "Östersjöomfattande anskaffningsnätverk", "FSC®- och PEFC-certifierat virke"]
+      "title": "Rundvirkehandel och agentur",
+      "body": "Fornello Oy anskaffar och förmedlar sågstockar, massaved, energiflis och energived i Östersjöregionen. Företaget importerar och exporterar högkvalitativa skandinaviska träprodukter med FOB- eller CIF-prissättning.",
+      "features": [
+        "Sågstockar",
+        "Massaved",
+        "Energiflis",
+        "Energived",
+        "FSC®- och PEFC-certifierat virke"
+      ]
     },
     "software": {
-      "title": "Programvara för virkesköp",
-      "body": "Vår programvara är byggd för virkesupphandlingens specifika krav. Digitalisera mätning, automatisera rapportering och få full insyn i era inköpsoperationer.",
-      "features": ["Mätnings- och sorteringsverktyg för virke", "Automatisering av upphandlingsflöden", "Kontrollpaneler för regelefterlevnad och rapportering", "Anpassad till nordiska skogsbruksstandarder"]
+      "title": "Programvaruverksamhet",
+      "body": "Programvara för virkesupphandling och inköpshantering.",
+      "features": [
+        "Verktyg för virkesupphandling",
+        "Mätning och rapportering",
+        "Efterlevnadsstöd"
+      ]
     },
     "consulting": {
       "title": "Konsulttjänster",
-      "body": "Oavsett om ni expanderar till nya marknader, skärper regelefterlevnadsprocesser eller optimerar er leveranskedja bidrar våra konsulter med djup branschkunskap.",
-      "features": ["Upphandlingsstrategi", "Rådgivning om REDIII- och EUDR-efterlevnad", "Marknadsanalys och leverantörsutvärdering", "Optimering av leveranskedjan"]
+      "body": "Konsulttjänster inom virkesupphandling.",
+      "features": [
+        "Upphandlingsstrategi",
+        "REDIII- och EUDR-efterlevnad",
+        "Marknadsrådgivning"
+      ]
+    },
+    "roundwood_page": {
+      "tagline": "Sälj alltid till bästa pris och villkor – eller köp förmånligt importvirke",
+      "section1": {
+        "heading": "Finskt virke till världen",
+        "body1": "Fornello Oy anskaffar virke i hela Finland, men huvudsakligen genom leveranshandel och vanligtvis till endast ett fåtal leveransplatser samtidigt. Målet är bland annat att skaffa virke från områden där det annars är svårare att sälja. Inköpspartners och leverantörskunder inkluderar skogsvårdsföreningar, sågverk, virkesanskaffningsföretag (t.ex. de som verkar inom bioenergiverksamhet) samt ibland privata skogsägare. Det anskaffade virket säljs antingen till den inhemska industrin eller till exportmarknader, med utnyttjande av ett omfattande kontaktnätverk och erfarenhet av både inhemsk handel och export. Fornello Oy innehar PEFC- och FSC®-certifikat för ursprungskedjans förvaltning.",
+        "body2": "Fornello Oy köper bland annat massaved och s.k. andraklassstock (en relativt okänd kategori i Finland), ibland även klenstock och normalstock. Lagren omsätts snabbt – virke lämnas inte att försämras vid vägkanten, och skogslöner betalas utan dröjsmål. Den vanligaste handelsformen är leveranshandel, men viss vägrenshandel (direktupphandling) förekommer också. Verksamheten sträcker sig från södra Finland ända upp till Lappland. Finskt virke är en utmärkt produkt, och varje anskaffad kubikmeter skapar välbehövliga sysselsättningsmöjligheter och extra inkomster dit de behövs mest."
+      },
+      "section2": {
+        "heading": "Ökad virkeshandel stimulerar ekonomin",
+        "body1": "Det bedrivs livlig virkeshandel runt Östersjöregionen, men Finland syns sällan som säljare. Finland har dock exceptionellt stora outnyttjade skogsreserver bland Östersjöländerna: ungefär 110 miljoner kubikmeter växer årligen, medan endast cirka 68 miljoner utnyttjas för industri och energi – vilket innebär att Finlands virkeskapital växer med 30 miljoner kubikmeter varje år. Det är hur mycket avverkningen kunde ökas utan att ens minska våra skogsreserver. Tallmassaved finns i synnerhet i riklig överflöd. Finskt virke är aldrig billigt som exportprodukt, men köpare som värdesätter leveranssäkerhet och ett förutsägbart stabilt prisläge finns alltid att hitta.",
+        "body2": "Ökad massavedavverkning har enorma positiva effekter. Redan en ökning på 100 000 m³ skapar sysselsättning för 3–4 gallringsmaskinkedjor (12–16 förare), 2–3 virkesbilar (4–6 förare) och 2–3 tjänstemän – för att inte tala om ökningen av rotpostsinkomster. Virke som levereras till den inhemska industrin kan också ersätta import, medan export är ett direkt nettotillskott. De senaste nyheterna om nya investeringar i massaindustrin är mycket uppmuntrande!"
+      },
+      "section3": {
+        "heading": "Import vid behov",
+        "body": "Även om det i princip finns tillräckligt med virke i Finland finns det situationer där import är rimligt. Användningen av högkvalitativ finsk massaved för energiproduktion förtjänar ett kritiskt förhållningssätt. När allt virke som är olämpligt för industrin eller annars av lågt värde redan har styrts till energianvändning, är det ibland mer meningsfullt att importera ytterligare behov, förutsatt att lämpligt material finns tillgängligt till ett rimligt pris. Genom Fornello Oy:s omfattande internationella kontaktnätverk kan alltid den mest konkurrenskraftiga importkanalen vid varje given tidpunkt hittas. Fråga gärna mer!"
+      }
+    },
+    "software_page": {
+      "tagline": "Ta kontroll över helheten och tjäna verkliga pengar på virkesupphandling.",
+      "intro": "Forlog-produktfamiljen erbjuder ett modernt affärssystem med avancerade funktioner – till ett mycket prisvärt pris. Systemet täcker alla steg i virkesupphandlingen från offert till slutanvändare. Programvaran är moduluppbyggd och moduler för bioenergiverksamhet och beräkningar finns också tillgängliga. Fråga gärna om en provperiod! Programvaran stöder EUDR-kompatibel insamling, hantering, lagring och rapportering av ursprungsdata. Under 2025 integreras programvaran med TRACES-systemet.",
+      "eudr_badge": "EUDR kommer – är du redo?",
+      "products_heading": "Forlog-produktfamiljen",
+      "products": [
+        {
+          "name": "Haukka",
+          "tagline": "Webbläsarbaserat system som täcker alla virkesupphandlingsfunktioner – fungerar även på smartphone",
+          "features": [
+            "Marginalberäkning redan i offertfasen",
+            "Mångsidiga lagerfunktioner",
+            "Automatisk beräkning av transportavstånd och ruttplanering",
+            "Senaste kartmaterial (terrängkartor, bakgrundskartor, ortofotografier, fastighetsuppgifter)",
+            "Snabba, högt automatiserade tariffberäkningar (avverkning och fjärrtransport)",
+            "Alltid realtidsinformation om lager med kartor (även för förare)",
+            "Skördarens arbetsinstruktioner/kartor och import av produktionsdata",
+            "Ingen sändning av köruppdrag och arbetsinstruktioner – syns omedelbart när sparat",
+            "Integrerat med Forest Hub – papiNet-standarden säkerställer datakonsistens i hela leveranskedjan",
+            "Organisationsnivåmöjlighet (t.ex. för flera upphandlingsområden)",
+            "Ursprungshanteringscertifikat beaktade: PEFC, FSC och SBP",
+            "Omfattande, anpassningsbar rapportering"
+          ]
+        },
+        {
+          "name": "Pöllö",
+          "tagline": "Ett system anpassat för bioenergiverksamhet",
+          "features": [
+            "Inkluderar alla Haukka-funktioner plus bioenergiarbetstyper",
+            "Avancerade beräkningar: konverterar och jämför olika enheter (m³ / lm³ / MWh)",
+            "Marginalberäkning i offertfasen – även när man köper i kubikmeter och säljer i MWh",
+            "Beräkning av torktider och möjlighet att följa och konvertera fukthalt i lager",
+            "Täcker ursprungshantering (krävs bl.a. för subventioner för elproduktion)",
+            "Omfattande, anpassningsbar rapportering"
+          ]
+        },
+        {
+          "name": "Kyyhky",
+          "tagline": "För lager- och transporthantering",
+          "features": [
+            "Realtidsunderhåll av lager",
+            "Automatisk beräkning av transportavstånd och ruttplanering",
+            "Senaste kartmaterial (terrängkartor, bakgrundskartor, ortofotografier, fastighetsuppgifter)",
+            "Snabb, högt automatiserad tariffberäkning",
+            "Omfattande, anpassningsbar rapportering"
+          ]
+        }
+      ],
+      "benefits_heading": "Fördelar med Forlog affärssystem",
+      "benefits_intro": "Övergången till Forlog affärssystem kan ge betydande fördelar för ditt företag.",
+      "benefits": [
+        {
+          "heading": "Förbättrad effektivitet",
+          "body": "Forlog integrerar alla dina virkesupphandlingsprocesser till ett sömlöst system. Informationsdelning mellan olika parter – entreprenörer och kunder – snabbas upp och antalet fel minskar. Rutinuppgifter som beräkning av entreprenörsbetalningar kan automatiseras."
+        },
+        {
+          "heading": "Tillgång till realtidsdata",
+          "body": "Forlog ger en realtidsöversikt av din verksamhet. Du kan övervaka lagerstatus, leveransvolymer, inköpsvolymer och avverkningsframsteg från en enda centraliserad plats – för snabbare och mer exakt beslutsfattande."
+        },
+        {
+          "heading": "Bättre kundservice",
+          "body": "En heltäckande bild av kunddata och avtalshistorik möjliggör mer personlig och snabbare service, vilket förbättrar kundnöjdheten och kundlojaliteten."
+        },
+        {
+          "heading": "Kostnadsbesparingar",
+          "body": "Genom att automatisera affärsprocesser – transport- och avverkningshantering, beräkning av entreprenörsbetalningar och mätningsintyg – minskar Forlog driftskostnaderna, onödigt arbete och lagerkostnader."
+        },
+        {
+          "heading": "Skalbarhet och tillväxtpotential",
+          "body": "Forlog är designat för att skalas upp med ditt företags tillväxt. Du kan lägga till nya funktioner, användare och processer efter behov utan att oroa dig för systemets kapacitet."
+        },
+        {
+          "heading": "Regelefterlevnad och riskhantering",
+          "body": "Forlog hjälper till att följa regler och minskar affärsrisker genom standardiserade rutiner. Systemet inkluderar beredskap för att underhålla och övervaka PEFC-, FSC- och SBP-certifieringssystem."
+        }
+      ],
+      "benefits_outro": "Övergången till Forlog affärssystem är mer prisvärd än du tror – och betalar tillbaka sig mångfalt.",
+      "forestry_callout": "Fråga också om skogsvårdsmodulen och skogsresursdata",
+      "erp_heading": "Hur drar ett skogsbolag nytta av ett affärssystem?",
+      "erp_intro": "Ett affärssystem integrerar alla centrala affärsprocesser som virkesupphandling, transport, lagring och fakturering. För ett skogsföretag innebär detta:",
+      "erp_points": [
+        {
+          "label": "Bättre synlighet och uppföljning",
+          "body": "All virkes-, avtals- och transportdata i ett system."
+        },
+        {
+          "label": "Mindre manuellt arbete",
+          "body": "Automatiserade processer minskar fel och sparar tid."
+        },
+        {
+          "label": "Datadrivna beslut",
+          "body": "Realtidsdata hjälper till att fatta strategiska beslut och optimera resurser."
+        }
+      ],
+      "efficiency_heading": "Hur förbättrar ERP effektiviteten?",
+      "efficiency_intro": "Ett affärssystem hjälper ett skogsföretag att verka mer effektivt på alla nivåer:",
+      "efficiency_points": [
+        {
+          "label": "Processoptimering",
+          "body": "Repetitiva uppgifter kan automatiseras och övervakas effektivt."
+        },
+        {
+          "label": "Resurshantering",
+          "body": "Avverkning och transport kan schemaläggas exakt."
+        },
+        {
+          "label": "Rapportering och analys",
+          "body": "Tydliga rapporter hjälper till att identifiera flaskhalsar och möjligheter att förbättra produktiviteten."
+        }
+      ],
+      "scale_heading": "Skalbarhet och tillväxt med ERP",
+      "scale_intro": "Ett växande skogsföretag behöver ett system som växer med det. Virkesupphandlings-ERP möjliggör:",
+      "scale_points": [
+        {
+          "label": "Skalbarhet",
+          "body": "Systemet stöder din affärstillväxt utan stora ytterligare investeringar."
+        },
+        {
+          "label": "Tillägg av nya funktioner",
+          "body": "Du kan enkelt utöka tjänster, lägga till nya avtal eller kontor."
+        },
+        {
+          "label": "Stärkt konkurrenskraft",
+          "body": "Effektivare verksamhet och bättre datahantering stärker företagets marknadsposition."
+        }
+      ],
+      "scale_outro": "Kontakta oss och be om en demo av virkesupphandlings-ERP och Forlog-produktfamiljen."
+    },
+    "consulting_page": {
+      "subheading": "Man kan inte – och behöver inte – veta allt själv",
+      "body": "Fornello erbjuder konsulttjänster särskilt relaterade till hantering av virkets ursprung, logistik och organisering av virkesupphandling. Våra tjänster inkluderar även olika entreprenadtariffer och relaterade beräkningssystem."
     }
   },
   "contact": {
-    "heading": "Kontakta oss",
-    "subheading": "Vi svarar inom en arbetsdag.",
+    "heading": "Kontakt",
+    "subheading": "Berätta kort vad ditt ärende gäller, så återkommer vår expert till dig så snart som möjligt.",
     "form": {
-      "name": "Fullständigt namn", "email": "E-postadress", "company": "Företag", "message": "Meddelande",
-      "name_placeholder": "Ditt namn", "email_placeholder": "du@foretag.se",
-      "company_placeholder": "Ditt företag", "message_placeholder": "Hur kan vi hjälpa?",
+      "name": "Fullständigt namn",
+      "email": "E-postadress",
+      "company": "Företag",
+      "message": "Meddelande",
+      "name_placeholder": "Ditt namn",
+      "email_placeholder": "du@foretag.se",
+      "company_placeholder": "Ditt företag",
+      "message_placeholder": "Hur kan vi hjälpa?",
       "submit": "Skicka meddelande",
       "success": "Tack — vi hör av oss inom kort.",
       "error": "Något gick fel. Försök igen eller skicka e-post direkt till info@fornello.fi."
     },
-    "info": { "address_label": "Adress", "phone_label": "Telefon", "email_label": "E-post" }
+    "info": {
+      "address_label": "Adress",
+      "phone_label": "Telefon",
+      "email_label": "E-post"
+    }
   },
   "footer": {
-    "tagline": "Kvalitetsvirke från Östersjöregionen.",
+    "tagline": "Det bättre alternativet för att lyckas med virkeshandeln.",
     "nav_label": "Kontakt",
+    "links_label": "Sidor",
     "lang_label": "Språk",
-    "copyright": "© {year} Fornello Oy. Alla rättigheter förbehållna."
+    "privacy": "Integritetspolicy",
+    "copyright": "© {year} Fornello Oy"
   },
   "common": {
-    "learn_more": "Läs mer", "contact_us": "Kontakta oss", "back_to_top": "Till toppen",
-    "loading": "Skickar…", "required_field": "Det här fältet är obligatoriskt."
+    "learn_more": "Läs mer",
+    "contact_us": "Kontakta oss",
+    "back_to_top": "Till toppen",
+    "loading": "Skickar…",
+    "required_field": "Det här fältet är obligatoriskt.",
+    "back_to_services": "Tillbaka till tjänster"
+  },
+  "ymparisto": {
+    "heading": "Miljö",
+    "section_heading": "Ansvarsfull virkesanskaffning",
+    "body1": "Att följa nationella lagar är den miniminivå som varje virkesleverantör måste uppfylla. EU antog i oktober 2010 timmerförordningen (EUTR 995/2010) i syfte att förhindra att olagligt virke och träprodukter når EU-marknaden. Även i Finland måste nationella lagar naturligtvis följas, och det måste kunna styrkas för varje enskild leverans.",
+    "body2": "Utöver att Fornello Oy uppfyller miniminivån genom att följa lagen, tar företaget ett bredare ansvar för miljön. Företaget stöder hållbar utveckling, vilket innebär att allt virke anskaffas på ett biologiskt, ekologiskt och socialt hållbart sätt. Fornello Oy innehar PEFC- och FSC®-certifikat för spårbarhet i leveranskedjan. Företagsledningen är engagerad i att verka i enlighet med kraven i båda systemen och granskar verksamheten systematiskt och regelbundet. Kiwa Inspecta fungerar som oberoende tredje part och granskar systemet.",
+    "pefc_info": "Mer information om PEFC-certifiering finns på nedanstående länk. Där kan man också kontrollera certifikatets giltighet.",
+    "fsc_info": "Mer information om FSC-systemet samt certifikatets giltighet finns på:",
+    "sbp_info": "Information om SBP-certifiering:"
+  },
+  "eudr": {
+    "meta_title": "EUDR — Fornello Oy",
+    "meta_description": "EU:s avskogningsförordning (EUDR) ställer strikta krav på virkesanskaffningsföretag vad gäller spårbarhet och datahantering för timmer.",
+    "badge": "EU-lagstiftning",
+    "h1": "EU:s avskogningsförordning (EUDR)",
+    "hero_intro": "EUDR ställer strikta krav på virkesanskaffningsföretag vad gäller spårbarhet och datahantering för timmer. Förordningen syftar till att förhindra avskogning och skogsförsämring globalt genom att kräva att företag inför informationssystem för noggrann övervakning av leveranskedjan.",
+    "what_h2": "Vad är EUDR?",
+    "what_body": "är lagstiftning utformad för att \"förhindra avskogning och skogsförsämring kopplad till produkter som kommer in på EU:s marknad\". Den påverkar direkt virkesanskaffning och trävaruhandel i hela leveranskedjan. Olika krav gäller för aktörer och handlare, med strängare skyldigheter för större företag.",
+    "aspects_h2": "Sex viktiga aspekter",
+    "aspects": {
+      "1": {
+        "title": "Krav på laglighetsverifiering",
+        "body": "Alla träprodukter som importeras till EU måste uppfylla laglighetskraven. Ursprungslandet måste vara verifierbart och timret måste komma från områden utan olaglig avverkning eller avskogning."
+      },
+      "2": {
+        "title": "Skyldigheter till tillbörlig aktsamhet",
+        "body": "Företag måste iaktta tillbörlig aktsamhet för att säkerställa att trä inte härstammar från avskogningsområden eller skogar som utsatts för olaglig avverkning."
+      },
+      "3": {
+        "title": "Förebyggande av avskogning",
+        "body": "Förordningen förbjuder import och export av produkter kopplade till avskogning, särskilt från länder där storskalig avskogning förekommer."
+      },
+      "4": {
+        "title": "Nya rapporterings- och övervakningsrutiner",
+        "body": "Importörer och exportörer måste noggrant rapportera produkternas ursprung och verifiera lagligheten med allt mer omfattande dokumentationskrav."
+      },
+      "5": {
+        "title": "Certifierings- och kontrollmekanismer",
+        "body": "Förordningen stöder FSC- och PEFC-certifieringar, men företagen måste visa att leveranskedjan uppfyller kraven gällande avskogningsbekämpning. Överträdelser leder till sanktioner."
+      },
+      "6": {
+        "title": "Övergångsschema och påverkan på företag",
+        "body": "EUDR införs stegvis, vilket ger företagen tid att anpassa sig till nya upphandlings- och handelskrav. Det ursprungliga ikraftträdandedatumet den 1 januari 2025 har skjutits upp."
+      }
+    },
+    "sysreqs_h2": "IT-systemkrav",
+    "sysreqs_intro": "Företag måste implementera informationssystem för hantering av ursprungsdata, TRACES-integration och rapportering — annars blir den manuella arbetsbelastningen ohanterlig.",
+    "sysreqs": {
+      "1": {
+        "title": "Insamling och lagring av ursprungsdata",
+        "body": "Företag måste samla in och lagra detaljerade uppgifter om timrets ursprung — inklusive avverkningsplats och leverantörsuppgifter — i minst fem år."
+      },
+      "2": {
+        "title": "Fullständig spårbarhet i leveranskedjan",
+        "body": "System måste spåra träprodukter från skogen till färdig produkt och säkerställa att inga källor är kopplade till avskogning."
+      },
+      "3": {
+        "title": "Hantering av aktsamhetsförsäkringar",
+        "body": "Företag måste upprätta, hantera och arkivera efterlevnadsdeklarationer som visar att lagstadgade krav uppfylls."
+      },
+      "4": {
+        "title": "TRACES-systemintegration",
+        "body": "Förordningen ålägger företag att rapportera till EU:s TRACES-system varje gång trä rör sig i leveranskedjorna. Detta kräver systemintegration som möjliggör smidig dataöverföring."
+      },
+      "5": {
+        "title": "Realtidsdatahantering och rapportering",
+        "body": "System måste ge omedelbar tillgång till ursprungsdata och möjliggöra snabb, korrekt myndighetsrapportering och internt beslutsfattande."
+      }
+    },
+    "cta_badge": "Forlog stöder EUDR-efterlevnad",
+    "cta_body": "Forlog-programvarufamiljen innehåller funktioner för hantering av ursprungsdata, TRACES-integration och rapportering.",
+    "btn_software": "Forlog-programvara",
+    "btn_contact": "Kontakta oss"
   }
 }

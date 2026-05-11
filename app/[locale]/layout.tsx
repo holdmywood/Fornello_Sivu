@@ -1,12 +1,16 @@
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
-import { Geist } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import '../globals.css'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { routing } from '@/lib/navigation'
 
-const geist = Geist({ subsets: ['latin', 'latin-ext'], variable: '--font-geist-sans' })
+const roboto = Roboto({
+  subsets: ['latin', 'latin-ext'],
+  weight: ['400', '500', '700'],
+  variable: '--font-roboto',
+})
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }))
@@ -23,8 +27,8 @@ export default async function LocaleLayout({
   const messages = await getMessages()
 
   return (
-    <html lang={locale} className={geist.variable}>
-      <body className="bg-cream-50 text-bark-900 antialiased">
+    <html lang={locale} className={roboto.variable}>
+      <body className="bg-cream-50 text-bark-900 antialiased" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main className="pt-16">{children}</main>

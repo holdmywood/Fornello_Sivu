@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/lib/navigation'
-import { Button } from '@/components/ui/button'
 
 export function Hero() {
   const t = useTranslations('home.hero')
@@ -15,7 +14,7 @@ export function Hero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: 'url(/images/hero.jpg)' }}
       />
-      <div className="absolute inset-0 bg-forest-800/70" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-black/25" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
         <motion.h1
@@ -31,7 +30,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.15, ease: 'easeOut' }}
-          className="text-lg md:text-xl text-moss-200 mb-10 max-w-2xl mx-auto leading-relaxed"
+          className="text-lg md:text-xl text-white mb-10 max-w-2xl mx-auto leading-relaxed"
         >
           {t('subheadline')}
         </motion.p>
@@ -42,21 +41,18 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.3, ease: 'easeOut' }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <Button
-            size="lg"
-            className="bg-amber-500 hover:bg-amber-500/90 text-white font-semibold px-8"
-            render={<Link href="/contact" />}
+          <Link
+            href="/contact"
+            className="inline-flex items-center justify-center h-10 rounded-lg px-8 bg-amber-500 hover:bg-amber-400 text-white font-semibold text-sm transition-colors"
           >
             {t('cta_primary')}
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="border-white/50 text-white hover:bg-white/10 bg-transparent px-8"
-            render={<Link href="/services" />}
+          </Link>
+          <Link
+            href="/services"
+            className="inline-flex items-center justify-center h-10 rounded-lg px-8 border border-white/50 text-white hover:bg-white/10 bg-transparent font-semibold text-sm transition-colors"
           >
             {t('cta_secondary')}
-          </Button>
+          </Link>
         </motion.div>
       </div>
     </section>
