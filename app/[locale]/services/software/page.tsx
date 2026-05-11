@@ -147,14 +147,14 @@ export default function SoftwarePage() {
 
       {/* ── Forestry callout ─────────────────────────────────────────────── */}
       <section className="bg-white py-3 px-6">
-        <div className="max-w-4xl mx-auto flex flex-row items-center gap-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center gap-4">
           <img
             src="/images/eu-vipuvoimaa.jpg"
             alt="Vipuvoimaa EU:lta 2014–2020, Euroopan aluekehitysrahasto"
-            className="h-[200px] w-auto shrink-0"
+            className="h-[140px] sm:h-[200px] w-auto shrink-0"
             style={{ mixBlendMode: 'multiply' }}
           />
-          <div className="flex flex-1 items-center gap-3 bg-cream-100 border border-moss-200 rounded-xl px-5 py-4">
+          <div className="flex w-full sm:flex-1 items-center gap-3 bg-cream-100 border border-moss-200 rounded-xl px-5 py-4">
             <TreePine className="h-5 w-5 text-forest-600 shrink-0" />
             <p className="font-medium text-bark-900">{tp('forestry_callout')}</p>
           </div>
@@ -166,7 +166,7 @@ export default function SoftwarePage() {
         <div className="max-w-4xl mx-auto space-y-6">
 
           {/* How does a forestry company benefit */}
-          <div className="bg-white rounded-xl p-8 shadow-sm border border-cream-100">
+          <div className="bg-white rounded-xl p-6 md:p-8 shadow-sm border border-cream-100">
             <h2 className="text-xl font-bold text-bark-900 mb-2">{tp('erp_heading')}</h2>
             <p className="text-bark-600 mb-5 text-sm">{tp('erp_intro')}</p>
             <ul className="space-y-3">
@@ -183,7 +183,7 @@ export default function SoftwarePage() {
           </div>
 
           {/* How ERP improves efficiency */}
-          <div className="bg-white rounded-xl p-8 shadow-sm border border-cream-100">
+          <div className="bg-white rounded-xl p-6 md:p-8 shadow-sm border border-cream-100">
             <h2 className="text-xl font-bold text-bark-900 mb-2">{tp('efficiency_heading')}</h2>
             <p className="text-bark-600 mb-5 text-sm">{tp('efficiency_intro')}</p>
             <ol className="space-y-3">
@@ -202,7 +202,7 @@ export default function SoftwarePage() {
           </div>
 
           {/* Scalability and growth */}
-          <div className="bg-white rounded-xl p-8 shadow-sm border border-cream-100">
+          <div className="bg-white rounded-xl p-6 md:p-8 shadow-sm border border-cream-100">
             <h2 className="text-xl font-bold text-bark-900 mb-2">{tp('scale_heading')}</h2>
             <p className="text-bark-600 mb-5 text-sm">{tp('scale_intro')}</p>
             <ul className="space-y-3 mb-6">

@@ -60,7 +60,7 @@ export default function RoundwoodPage() {
                   sizes="(min-width: 768px) 50vw, 100vw"
                 />
               </div>
-              <div className="p-8 border-l-4 border-forest-600">
+              <div className="p-6 md:p-8 border-l-4 border-forest-600">
                 <h2 className="text-2xl font-bold text-bark-900 mb-4">{tp('section1.heading')}</h2>
                 <p className="text-bark-600 leading-relaxed mb-4">{tp('section1.body1')}</p>
                 <p className="text-bark-600 leading-relaxed">{tp('section1.body2')}</p>
@@ -71,7 +71,7 @@ export default function RoundwoodPage() {
           {/* Section 2: text left, crane image right */}
           <div className="bg-white rounded-xl shadow-sm overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2">
-              <div className="p-8 border-l-4 border-forest-600 order-2 md:order-1">
+              <div className="p-6 md:p-8 border-l-4 border-forest-600 order-2 md:order-1">
                 <h2 className="text-2xl font-bold text-bark-900 mb-4">{tp('section2.heading')}</h2>
                 <p className="text-bark-600 leading-relaxed mb-4">{tp('section2.body1')}</p>
                 <p className="text-bark-600 leading-relaxed">{tp('section2.body2')}</p>
@@ -89,13 +89,13 @@ export default function RoundwoodPage() {
           </div>
 
           {/* Section 3: import */}
-          <div className="bg-white rounded-xl border-l-4 border-moss-500 shadow-sm p-8">
+          <div className="bg-white rounded-xl border-l-4 border-moss-500 shadow-sm p-6 md:p-8">
             <h2 className="text-2xl font-bold text-bark-900 mb-4">{tp('section3.heading')}</h2>
             <p className="text-bark-600 leading-relaxed">{tp('section3.body')}</p>
           </div>
 
           {/* Features grid */}
-          <div className="bg-white rounded-xl border border-moss-200/60 shadow-sm p-8">
+          <div className="bg-white rounded-xl border border-moss-200/60 shadow-sm p-6 md:p-8">
             <h3 className="font-semibold text-bark-900 mb-4 flex items-center gap-2">
               <CheckCircle2 className="h-5 w-5 text-forest-600" />
               {t('roundwood.title')}

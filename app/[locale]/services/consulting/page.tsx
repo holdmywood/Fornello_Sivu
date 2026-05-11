@@ -46,7 +46,7 @@ export default function ConsultingPage() {
 
       <section className="bg-cream-50 py-20 px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-xl border-l-4 border-forest-600 shadow-sm p-8 md:p-12">
+          <div className="bg-white rounded-xl border-l-4 border-forest-600 shadow-sm p-6 md:p-12">
             <blockquote className="text-xl md:text-2xl font-medium text-bark-900 italic border-l-0 mb-8 leading-relaxed">
               &ldquo;{tp('subheading')}&rdquo;
             </blockquote>
@@ -60,7 +60,7 @@ export default function ConsultingPage() {
           <img
             src="/images/consulting-barge.png"
             alt=""
-            className="w-full h-[420px] object-cover"
+            className="w-full h-[220px] sm:h-[420px] object-cover"
           />
         </div>
       </section>
