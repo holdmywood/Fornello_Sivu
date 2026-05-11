@@ -28,18 +28,18 @@ function AnimatedFeatureIcon({
   if (shouldReduce) return <Icon className={cls} />
 
   const enterAnimation = {
-    supply:         { rotate: [0, 22, -8, 0],     transition: { duration: 2.4, ease: 'easeInOut', delay } },
-    sustainability: { rotate: [0, -10, 7, -4, 0], transition: { duration: 2.8, ease: 'easeInOut', delay } },
-    quality:        { scale:  [1, 1.18, 1],        transition: { duration: 1.6, ease: 'easeInOut', delay } },
-    logistics:      { x: 0,                        transition: { duration: 0.85, ease: 'easeOut',  delay } },
-  } as const
+    supply:         { rotate: [0, 22, -8, 0] as number[],     transition: { duration: 2.4, ease: 'easeInOut' as const, delay } },
+    sustainability: { rotate: [0, -10, 7, -4, 0] as number[], transition: { duration: 2.8, ease: 'easeInOut' as const, delay } },
+    quality:        { scale:  [1, 1.18, 1] as number[],       transition: { duration: 1.6, ease: 'easeInOut' as const, delay } },
+    logistics:      { x: 0,                                   transition: { duration: 0.85, ease: 'easeOut' as const,  delay } },
+  }
 
   const hoverAnimation = {
-    supply:         { rotate: [0, 28, 0],          transition: { duration: 1.4, ease: 'easeInOut' } },
-    sustainability: { rotate: [0, -12, 9, -5, 0],  transition: { duration: 1.8, ease: 'easeInOut' } },
-    quality:        { scale:  [1, 1.22, 1],         transition: { duration: 0.9, ease: 'easeInOut' } },
-    logistics:      { x: [-5, 0],                  transition: { duration: 0.5, ease: 'easeOut'  } },
-  } as const
+    supply:         { rotate: [0, 28, 0] as number[],         transition: { duration: 1.4, ease: 'easeInOut' as const } },
+    sustainability: { rotate: [0, -12, 9, -5, 0] as number[], transition: { duration: 1.8, ease: 'easeInOut' as const } },
+    quality:        { scale:  [1, 1.22, 1] as number[],       transition: { duration: 0.9, ease: 'easeInOut' as const } },
+    logistics:      { x: [-5, 0] as number[],                 transition: { duration: 0.5, ease: 'easeOut' as const  } },
+  }
 
   return (
     <motion.div
